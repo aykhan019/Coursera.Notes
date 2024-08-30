@@ -18,8 +18,7 @@ This project uses GitHub Actions for automation, so no manual execution is requi
 
 2. **Workflow Schedule**: The GitHub Actions workflow is set to trigger every hour to fetch and save notes from Notion.
 
-3. **Workflow Permissions**: Configure the workflow with **Read and Write Permissions** to ensure it can commit and push changes. Choose the default permissions granted to the `GITHUB_TOKEN` in the repository settings:
-    - **Read and Write Permissions**: Workflows need read and write permissions in the repository.
+3. **Workflow Permissions**: Configure the workflow with **Read and Write Permissions** to ensure it can commit and push changes.
 
 ## GitHub Actions Workflow
 
