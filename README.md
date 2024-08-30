@@ -38,7 +38,7 @@ Contributions are welcome! Please follow these steps to contribute:
 - Submit a pull request with a clear description of your modifications.
 
 ## License
-This project is licensed under the [Apache License 2.0](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 - [GitHub Actions](https://github.com/features/actions) for CI/CD automation.
