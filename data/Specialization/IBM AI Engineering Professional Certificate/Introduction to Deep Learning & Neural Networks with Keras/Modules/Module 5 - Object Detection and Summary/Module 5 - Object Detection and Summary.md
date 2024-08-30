@@ -1,0 +1,11 @@
+
+
+# Module 5: Object Detection and Summary
+## Module 1: Introduction to Neural Networks and Deep Learning
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/a8d40bcb-c482-4026-8872-311e16b2dc63/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240830%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240830T115125Z&X-Amz-Expires=3600&X-Amz-Signature=c907f96ae04db6ffc630691b887c2ac293de420954218f3dd283647c76c6e456&X-Amz-SignedHeaders=host&x-id=GetObject)
+## Module 2: Artificial Neural Networks
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/5157ca89-62da-41d9-a98f-6432b71047a9/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240830%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240830T115125Z&X-Amz-Expires=3600&X-Amz-Signature=43ff398646b9311166a398986f8602409a9ddafa51ae12a5dd849e687a6f3d27&X-Amz-SignedHeaders=host&x-id=GetObject)
+## Module 3: Keras and Deep Learning Libraries
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/5089ce50-05f1-470d-ad42-42503bf1df5f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240830%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240830T115125Z&X-Amz-Expires=3600&X-Amz-Signature=f48e3f4d075ab3c322a5d76ad34f4f4f5dfe7bd4b58176f6faf350c9147cf2c2&X-Amz-SignedHeaders=host&x-id=GetObject)
+## Module 4: Deep Learning Models
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/4e22fcb0-cfbc-4d28-b961-b9b8fde071f0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240830%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240830T115125Z&X-Amz-Expires=3600&X-Amz-Signature=1532723fafa97181760a9e9471ebf1acbb6caf9d8776cbae2cf1b5ec1e27e856&X-Amz-SignedHeaders=host&x-id=GetObject)
