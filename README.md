@@ -11,9 +11,10 @@ This repository contains a Python script and GitHub Actions workflow designed to
 ## Usage
 This project uses GitHub Actions for automation, so no manual execution is required. Ensure the following:
 
-1. **Secrets Configuration**: Add your Notion integration token and top page ID as GitHub repository secrets.
+1. **Secrets Configuration**: Add your Notion integration token, top page ID and GitHub action token as GitHub repository secrets.
     - `NOTION_TOKEN`: Your Notion API token.
     - `TOP_PAGE_ID`: The ID of the Notion page from which to start exporting.
+    - `ACTIONS_TOKEN` - A token used for pushing changes.
 
 2. **Workflow Schedule**: The GitHub Actions workflow is set to trigger every hour to fetch and save notes from Notion.
 
@@ -31,6 +32,7 @@ This project uses GitHub Actions for automation, so no manual execution is requi
     - Add the following secrets:
       - `NOTION_TOKEN` - Your Notion integration token.
       - `TOP_PAGE_ID` - The ID of the top page to start exporting from.
+      - `ACTIONS_TOKEN` - A token used for pushing changes.
 
 3. **Install Dependencies**:
     The workflow installs dependencies automatically, but for local testing, you may install them manually:
