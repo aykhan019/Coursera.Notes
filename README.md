@@ -11,7 +11,7 @@ This repository contains a Python script and GitHub Actions workflow designed to
 ## Usage
 This project uses GitHub Actions for automation, so no manual execution is required. Ensure the following:
 
-1. **Secrets Configuration**: Add your Notion integration token, top page ID and GitHub action token as GitHub repository secrets.
+1. **Secrets Configuration**: Add your Notion integration token, top page ID, and GitHub action token as GitHub repository secrets.
     - `NOTION_TOKEN`: Your Notion API token.
     - `TOP_PAGE_ID`: The ID of the Notion page from which to start exporting.
     - `ACTIONS_TOKEN` - A token used for pushing changes.
