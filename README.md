@@ -14,31 +14,12 @@ This project uses GitHub Actions for automation, so no manual execution is requi
 1. **Secrets Configuration**: Add your Notion integration token, top page ID, and GitHub action token as GitHub repository secrets.
     - `NOTION_TOKEN`: Your Notion API token.
     - `TOP_PAGE_ID`: The ID of the Notion page from which to start exporting.
-    - `ACTIONS_TOKEN` - A token used for pushing changes.
+    - `ACTIONS_TOKEN`: A token used for pushing changes.
 
 2. **Workflow Schedule**: The GitHub Actions workflow is set to trigger every hour to fetch and save notes from Notion.
 
-## Installation
-
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
-    ```
-
-2. **Set Up Secrets**:
-    - Go to the repository's settings on GitHub.
-    - Navigate to "Secrets and variables" > "Actions".
-    - Add the following secrets:
-      - `NOTION_TOKEN` - Your Notion integration token.
-      - `TOP_PAGE_ID` - The ID of the top page to start exporting from.
-      - `ACTIONS_TOKEN` - A token used for pushing changes.
-
-3. **Install Dependencies**:
-    The workflow installs dependencies automatically, but for local testing, you may install them manually:
-    ```bash
-    pip install notion-client notion-exporter
-    ```
+3. **Workflow Permissions**: Configure the workflow with **Read and Write Permissions** to ensure it can commit and push changes. Choose the default permissions granted to the `GITHUB_TOKEN` in the repository settings:
+    - **Read and Write Permissions**: Workflows need read and write permissions in the repository.
 
 ## GitHub Actions Workflow
 
