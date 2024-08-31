@@ -24,7 +24,7 @@ This project uses GitHub Actions for automation, so no manual execution is requi
 
 The workflow is defined in the `.github/workflows/export-notion-notes.yml` file. It performs the following steps:
 
-1. **Checkout the Repository**: Checks out the code from the repository.
+1. **Checkout the Repository**: Check out the code from the repository.
 2. **Set Up Python**: Sets up the Python environment.
 3. **Install Dependencies**: Installs necessary Python packages.
 4. **Export Notion Notes**: Runs the `export_notion.py` script to fetch and save notes.
