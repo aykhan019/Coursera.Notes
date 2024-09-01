@@ -5,7 +5,7 @@
 Classification is a supervised learning approach used to categorize items into discrete classes. It aims to learn the relationship between feature variables and a target variable, which is categorical.
 ### How Classification Works
 Given training data with target labels, a classification model predicts the class label for new, unlabeled data.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ebd9db3c-b793-47e8-9f00-a93662961e2a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T025049Z&X-Amz-Expires=3600&X-Amz-Signature=90d6cd8ff0503f0bd7d27bd07d7648ee0a04cec2872eeec94a787abe0d9e2ce0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ebd9db3c-b793-47e8-9f00-a93662961e2a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T032048Z&X-Amz-Expires=3600&X-Amz-Signature=aaf2a0ec862ab601a8d4c667e78e47023b71d41ef5cd41b6356e1c6e4dab6b73&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Example:
 A loan default predictor uses historical data (e.g., age, income) to classify customers as defaulters or non-defaulters.
 ### Types of Classification
@@ -13,7 +13,7 @@ A loan default predictor uses historical data (e.g., age, income) to classify cu
 Predicts one of two possible classes (e.g., defaulter vs. non-defaulter).
 #### Multi-class Classification
 Predicts among more than two classes (e.g., which medication is appropriate for a patient).
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/d0a87923-2ee4-4428-9a12-9e906d1d7355/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T025049Z&X-Amz-Expires=3600&X-Amz-Signature=b7c84f07a52361a3a8c007f8a0340c76e5513f976ee9c7f8a60bbc83205f7657&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/d0a87923-2ee4-4428-9a12-9e906d1d7355/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T032048Z&X-Amz-Expires=3600&X-Amz-Signature=0874ed21bc54431dd6e92ccd5211ffc313e1056787b5bddd8e4e243dc0573fa4&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Applications
 #### Business Use Cases
 - Churn detection
@@ -39,7 +39,7 @@ ___
 The **K-Nearest Neighbors (KNN)** algorithm is a supervised learning classification technique used to classify a data point based on how its neighbors are classified. It is based on the concept that data points that are close to each other are more likely to belong to the same class. KNN can also be used for regression tasks.
 ### Example Scenario
 Consider a telecommunications provider that has segmented its customer base into four groups based on service usage patterns. The goal is to predict which group a new customer belongs to using demographic data such as age and income. This is a classification problem, where the goal is to assign a class label to a new, unknown case based on the known labels of other cases.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/e36aac8a-7cd7-46a1-abe2-4cec9840fab1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T025049Z&X-Amz-Expires=3600&X-Amz-Signature=5ac89832829a7455fb40fa7bf96c4c835762d3c6ff7246d280605064f53bdd6d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/e36aac8a-7cd7-46a1-abe2-4cec9840fab1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T032048Z&X-Amz-Expires=3600&X-Amz-Signature=eeecb914d99dffd3e1d9100cda7b6037c1c6028e1e6b07d75d9554dd0bb86461&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### How K-Nearest Neighbors Works
 1. **Choosing the Number of Neighbors (K)**: The number of neighbors (K) to consider is specified by the user.
 2. **Calculating Distance**: For a new data point, the algorithm calculates the distance between this point and all other points in the dataset. Common distance metrics include Euclidean distance.
@@ -49,9 +49,9 @@ Consider a telecommunications provider that has segmented its customer base into
 - **Scenario**: A new customer’s demographic data (e.g., age and income) is available. The goal is to classify this customer into one of four service groups.
 - **Process**:
 	- If K=1, the new customer is assigned the same class as the closest existing customer.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/52e428c2-67d2-47dc-9e61-836eccce6be2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T025050Z&X-Amz-Expires=3600&X-Amz-Signature=55ccf9ed7c3eb9dff8fe8da0a28e0e58134466aa6eb35ab138f6b1c5d1c6aa1b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/52e428c2-67d2-47dc-9e61-836eccce6be2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T032053Z&X-Amz-Expires=3600&X-Amz-Signature=b793893aeb0ce1b3367def71c1ec51135c561b559d1e3f77d3bf910118cf0cb6&X-Amz-SignedHeaders=host&x-id=GetObject)
 	- If K=5, the new customer is assigned the class that is most frequent among the 5 nearest neighbors.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/43d3ac68-3aef-49d9-8585-3354324ac454/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T025050Z&X-Amz-Expires=3600&X-Amz-Signature=d2c9d8a062c6fe0e4821e4fae2ac907ba9c534488d370e28bf1c9afc6b208bfb&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/43d3ac68-3aef-49d9-8585-3354324ac454/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T032053Z&X-Amz-Expires=3600&X-Amz-Signature=6b8406940f89f576cf95a9ebe4e5aadac3d589331003c6cecd390cf4f29437b1&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Example Code for KNN:
 ```python
 from sklearn.neighbors import KNeighborsClassifier
@@ -122,7 +122,7 @@ $$ \text{Jaccard Index} = \frac{8}{10 + (10 - 8)} = 0.6 $$
 #### Interpretation
 - A Jaccard index of 1.0 indicates a perfect match between predicted and true labels.
 - A value closer to 0 indicates a poor match.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/70cad103-c369-453a-a601-9beda28c647e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T025049Z&X-Amz-Expires=3600&X-Amz-Signature=c2abe79ce781679bf6101102732d2e10dca8f361058cbbf376bab5f0c0a49d6e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/70cad103-c369-453a-a601-9beda28c647e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240901T032048Z&X-Amz-Expires=3600&X-Amz-Signature=1f96f576b3394c642dd0d35bd1d6e70f49a6f138f00eb6b0c335cea51001f9f1&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Code Example
 ```python
 from sklearn.metrics import jaccard_score
