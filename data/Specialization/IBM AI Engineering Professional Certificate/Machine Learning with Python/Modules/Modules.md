@@ -7,3 +7,4 @@
 [Module 4: Linear Classification](www.notion.so/9ba9fe11-980c-4eca-aebe-cd90acac974f)
 [Module 5: Clustering](www.notion.so/659f214a-e190-44ea-8898-5c7fbd6c1b9c)
 [Module 6: Final Exam and Project](www.notion.so/8acd5728-7bcf-463f-a2cb-ba7c1a885e0d)
+
