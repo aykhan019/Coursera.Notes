@@ -9,28 +9,28 @@ Each pixel is represented by a **numerical intensity value**:
 - **Intensity values** range between **0 and 255**, where:
 	- **0** represents **black**.
 	- **255** represents **white**.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/fa1bb4aa-313a-44c2-a7b3-7fa4a8432b08/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T171449Z&X-Amz-Expires=3600&X-Amz-Signature=20bde97d51ed3ef003e8f9e5fa18ed45d2fc79d79e755bb296452b39ee91c285&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/fa1bb4aa-313a-44c2-a7b3-7fa4a8432b08/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=25a6f7675793e6c4060ac8df72ccb5755d7aeafe83229f78a401ae39f34699d3&X-Amz-SignedHeaders=host&x-id=GetObject)
 The number of intensity values directly impacts the **contrast** of the image:
 - Higher intensity values provide better **contrast**.
 - Reducing intensity values can result in visual changes, as seen in the following steps:
 	- **256 intensity values**: The image appears clear and accurate.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0de7dfb4-99dc-4b87-8932-5165b3c3b775/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T171449Z&X-Amz-Expires=3600&X-Amz-Signature=c250db98ec4fcd8981b23aa4c172cacd71234643458cf103a1c55721762b3e19&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0de7dfb4-99dc-4b87-8932-5165b3c3b775/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=9852fe2b0a6234986ec0a2e63818bbb2ea0cdc3f27b63b381225f907fc257280&X-Amz-SignedHeaders=host&x-id=GetObject)
 	- **32 intensity values:**
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7eb81f08-b190-4c5a-ba2b-2a498a15b2c4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T171449Z&X-Amz-Expires=3600&X-Amz-Signature=3449dd2f0853039f67bccfb1007acfbb24de6ade5079870f0f5277e352d11f97&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7eb81f08-b190-4c5a-ba2b-2a498a15b2c4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=8cd6adaa86627a4241aaeed7e7fdf976c6f0707d91c49940f9f507de51a93757&X-Amz-SignedHeaders=host&x-id=GetObject)
 	- **16 intensity values**: Differences are noticeable in low-contrast areas.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/6bf56d44-9a14-4b7b-98c2-1f00b8630f0c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T171449Z&X-Amz-Expires=3600&X-Amz-Signature=0548c63ed78a40d3b3c13c72e05d281e5d7f849d6b4ccdb5a82da9288d199739&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/6bf56d44-9a14-4b7b-98c2-1f00b8630f0c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=053c33e96a35b01e3a64871aaa116330c491ebf4b699d8466eea10428a202af0&X-Amz-SignedHeaders=host&x-id=GetObject)
 	- **8 intensity values**: The image begins to lose definition.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/cca05878-ca1a-43e0-8bec-1d146756f9ae/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T171449Z&X-Amz-Expires=3600&X-Amz-Signature=3e8b34c46d714dcae755e39df6de50ada56ecab2197b9bba2ccb3340be3863cc&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/cca05878-ca1a-43e0-8bec-1d146756f9ae/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=1a6a1dcf54f356ec1264d7bc2f26a9fc32a45d08fe400a2670913bb2b0712f8d&X-Amz-SignedHeaders=host&x-id=GetObject)
 	- **2 intensity values**: The image looks cartoonish.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/12da64d7-6b97-44e0-bc2c-52b9c47ce212/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T171449Z&X-Amz-Expires=3600&X-Amz-Signature=99a0d94f6502f3a7c6e33219482a4e3d12ffdd41e20ed0de7836e44242ea0de7&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/12da64d7-6b97-44e0-bc2c-52b9c47ce212/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=0f6aa8e87c7ec0320998ef43f25bb8466838ca721c60a5a4d70239b0bad85501&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Image Dimensions
 - The **height** represents the number of **rows**.
 - The **width** represents the number of **columns**.
 - Each pixel is indexed based on its position in the row and column.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ff056335-e79e-4491-b508-30cd45b6c194/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T171449Z&X-Amz-Expires=3600&X-Amz-Signature=6c7eef397dacbec79234a63443631fca6ff15ea7ad9315294ba8f225df83a04d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ff056335-e79e-4491-b508-30cd45b6c194/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=b2d3544969ed946cb5e332504fd11ae67b97b2267235bf343f33e87a1873a573&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Image Composition
 In **real-world images**, each pixel value comes from a grid of **sensors** that capture light. These values are then **quantized** into digital samples to form the image.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0c721ea0-409b-4d32-b630-a00d6f170d18/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T171449Z&X-Amz-Expires=3600&X-Amz-Signature=f8ed88489b389b3e3b6d47024d921ae7c30a59ef7cb2c0944e61672ebcea45ac&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0c721ea0-409b-4d32-b630-a00d6f170d18/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=f7bba8d44f4dc8d1ecbbd7073ddb67634922597241dbe12037c432d0c8ae16f8&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Color Images and Channels
 A **color image** is composed of different **color channels** (e.g., **red**, **green**, and **blue**):
 - Each channel is essentially a **gray-scale image** representing intensity values for that color.
@@ -39,11 +39,11 @@ For example:
 - **Red channel**: Represents red intensities.
 - **Green channel**: Represents green intensities.
 - **Blue channel**: Represents blue intensities.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/c0cc17c9-842f-413f-82e8-f3f44278cf74/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T171449Z&X-Amz-Expires=3600&X-Amz-Signature=c43d3e55ff3effccdcf267ad7459db243a79e6d1bc56a88bc84679cd3f3ab466&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/c0cc17c9-842f-413f-82e8-f3f44278cf74/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=e048dc85e4c523c9ee5edcb07d6e18028491305d2d0d46aa4d116b9f1e07c205&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Image Masks
 - A **binary mask** can be used to identify specific objects in an image.
 - Pixels corresponding to the object are represented as **1**, while the rest are **0**.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/667eab4d-d19d-4618-81d0-663b6beb002c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T171449Z&X-Amz-Expires=3600&X-Amz-Signature=e63ba87750648509373fb2ac30d289f28b4ed35c700f65f78b857d26816b7d7e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/667eab4d-d19d-4618-81d0-663b6beb002c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=e8303de85f28eebd5ee4977b08efd03e4ae7230b8bbd485a73b866d4b6d1d04c&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Video Sequences
 A **video** can be viewed as a sequence of multiple **images** or **frames**.
 ### Image Formats
@@ -100,8 +100,9 @@ gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #### Example: Saving an Image
 - Save an image using OpenCV:
 ```python
-cv2.imwrite('output.png', img
+cv2.imwrite('output.png', img)
 ```
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/25fcc977-54ea-484c-997e-9b6bd016f347/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240926T181849Z&X-Amz-Expires=3600&X-Amz-Signature=35ab565e46e0d86180b65f3f43c80b7bf6a2bfb27654f6342a06dac2b70c69b0&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Working with Color Channels
 Using **slices**, individual color channels (e.g., **blue**, **green**, **red**) can be extracted:
 ```python
@@ -121,7 +122,6 @@ This conversion is particularly useful when integrating with **OpenCV** and perf
 Both **PIL** and **OpenCV** are essential tools for handling and processing digital images in Python. Each has its strengths:
 - **PIL** is simple and great for basic tasks.
 - **OpenCV** offers more advanced capabilities for **computer vision** applications.
-For more advanced usage of OpenCV, refer to the lab sessions for deeper exploration.
 ___
 
 
