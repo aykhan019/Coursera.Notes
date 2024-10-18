@@ -17,7 +17,7 @@ TensorFlow is the most widely used deep learning library, developed by Google an
 - Support for deployment on multiple platforms
 - Large, active community
 *Additional Note:* GitHub link for TensorFlow -  
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/74e41980-5708-4dc2-8b36-6fa847d6b94d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T051523Z&X-Amz-Expires=3600&X-Amz-Signature=2d94c229d7c8f679f735cab1dd06dbc19119ebcbcd5c16eeffb47537b73af8af&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/74e41980-5708-4dc2-8b36-6fa847d6b94d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T062107Z&X-Amz-Expires=3600&X-Amz-Signature=123bd4cca2349d3b64e2ad6516eb5238de726d7ca59d8ccfeb3491425131aa3a&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### 2. PyTorch
 #### Description
 PyTorch, developed by Facebook in 2016, has gained popularity in academic and research settings. It emphasizes flexibility and dynamic computation graphs, making it ideal for applications requiring custom deep learning models. PyTorch is a cousin of the Lua-Based Torch Framework, and is a strong competitor  
@@ -25,7 +25,7 @@ PyTorch, developed by Facebook in 2016, has gained popularity in academic and re
 - Dynamic computational graph
 - Strong academic presence
 - Easier debugging and optimization
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f420ac7a-3545-4ca4-807d-b1f088e34f6b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T051523Z&X-Amz-Expires=3600&X-Amz-Signature=eb530117aa06f94acc1670c5f19c77361ae89ee6312a04a40bc4f7ab9f1577cd&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f420ac7a-3545-4ca4-807d-b1f088e34f6b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T062107Z&X-Amz-Expires=3600&X-Amz-Signature=23a7d0278fc0501f935b62484671f965c85091bb46ec1dc237a2c81c09c5e067&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### 3. Keras
 #### Description
 Keras is a high-level API for building neural networks. It runs on top of TensorFlow and simplifies model building with a user-friendly interface, making it a great option for beginners and rapid prototyping.
@@ -33,7 +33,7 @@ Keras is a high-level API for building neural networks. It runs on top of Tensor
 - Simplified syntax for rapid development
 - Can run on top of TensorFlow or Theano
 - User-friendly and easy to learn
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/18d63fa6-e71d-4007-b06a-fdde1fc12b03/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T051523Z&X-Amz-Expires=3600&X-Amz-Signature=513c3cf9745cc81c8d6ef49b1c357274085f005b1c9fb5dbd0778a78fee9315e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/18d63fa6-e71d-4007-b06a-fdde1fc12b03/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T062107Z&X-Amz-Expires=3600&X-Amz-Signature=c9366c0ab8dfd5202233fa675c2ebdc51415d57fe7564a75a002f09e3f66327f&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Comparison of Libraries
 - **TensorFlow**: Best for large-scale production environments.
 - **PyTorch**: Ideal for research and academic settings.
@@ -63,7 +63,7 @@ print("Keras Backend:", keras.backend.backend())
 predictors = concrete_data[['cement', 'slag', 'flyash', 'water', 'superplasticizer', 'coarseaggregate', 'fineaggregate']]
 target = concrete_data['strength']
 ```
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/1307e63c-51d4-4bc0-954a-ff8ae7a3e2e1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T051523Z&X-Amz-Expires=3600&X-Amz-Signature=b337cf2e768ea6110118c01de9c5a338cafe3c02240d6866ce95ecd253fcbd24&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/1307e63c-51d4-4bc0-954a-ff8ae7a3e2e1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T062107Z&X-Amz-Expires=3600&X-Amz-Signature=58febd5cc61464b67b7fb4854db84d39bedf1db3e58b190ad0933162eac366eb&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Building a Regression Model
 7. **Creating the Model:**
 	- Import necessary modules:
@@ -90,7 +90,7 @@ model.add(Dense(1))
 			- `units`: Number of neurons in the layer.
 			- `input_shape`: Shape of input data (only needed for the first layer). For example, `input_shape=(8,)` indicates 8 features.
 			- `activation`: Activation function used by the layer. 'relu' is used for hidden layers, and no activation function is specified for the output layer to allow continuous output.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/e6193001-64de-41d3-8624-a8f8d5f99f66/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T051524Z&X-Amz-Expires=3600&X-Amz-Signature=35ef70fdb114d652001afe802bf3896c075d2dad5dd375d95fb57e3dd0b048a0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/e6193001-64de-41d3-8624-a8f8d5f99f66/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T062107Z&X-Amz-Expires=3600&X-Amz-Signature=2c916eb219044d7f1ddf1ca40518527db978120ca9583885458b79e4ea4dce62&X-Amz-SignedHeaders=host&x-id=GetObject)
 9. **Compiling the Model:**
 	- Define the optimizer and loss function:
 ```python
@@ -116,7 +116,7 @@ predictions = model.predict(new_data)
 	- **Parameters Explained:**
 		- `**new_data**`: New input data for which predictions are to be made.
 		- `**predictions**`: The output from the model for the new data.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/eac113a6-c35b-46e8-a33e-827216ab294a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T051523Z&X-Amz-Expires=3600&X-Amz-Signature=056e3fbe55dff867c3699d829882ffe770b84223cb479910bb633a577ff02855&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/eac113a6-c35b-46e8-a33e-827216ab294a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T062107Z&X-Amz-Expires=3600&X-Amz-Signature=c6b42b9c6f928649580c6fc5814d34a249a5d1487dd6cae626a2c8ca2e4137c1&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Conclusion
 Keras simplifies the process of building and training neural networks. For regression tasks, a basic model can be built with just a few lines of code, making it accessible and efficient for rapid development. For more detailed information, refer to the Keras documentation on optimizers, models, and methods.
 
@@ -151,7 +151,7 @@ target = car_data['decision']
 ```python
 target = to_categorical(target)
 ```
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/b1126cec-3993-4fb3-82c4-d7f67fbc1e81/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T051523Z&X-Amz-Expires=3600&X-Amz-Signature=3411cf2b386375c2469f1e7457f45f392c7d1ba09f16c0ac547432500d538712&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/b1126cec-3993-4fb3-82c4-d7f67fbc1e81/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T062107Z&X-Amz-Expires=3600&X-Amz-Signature=3bf3eb62db06dd70f62a02cfddad4fced108234129abbfb764bcfe6da731c0bb&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### **Building a Classification Model**
 14. **Creating the Model**:
 	- Initialize the Sequential model:
@@ -196,8 +196,8 @@ predictions = model.predict(new_data)
 **Parameters Explained**:
 	- `**new_data**`: New input data for which predictions are to be made.
 	- `**predictions**`: The output from the model for the new data. Each prediction will be a probability distribution over the classes.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/8e3957d0-609f-4d84-a6b2-bd48b5c3562e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T051523Z&X-Amz-Expires=3600&X-Amz-Signature=7601e435437a78ef409d5fbd17ee3d49982362076387591cce7efcc5b51e39e3&X-Amz-SignedHeaders=host&x-id=GetObject)
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/b9a0b3fa-70ea-45e5-9593-7351d697026d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T051523Z&X-Amz-Expires=3600&X-Amz-Signature=154ca88bdfbf7fdfaf8b4abf004307294917000c75c09ef1d631a3293c697c13&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/8e3957d0-609f-4d84-a6b2-bd48b5c3562e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T062107Z&X-Amz-Expires=3600&X-Amz-Signature=4b903627fc1995ec877b284d6b7f9b524b35a197ea6ca137182418002e1147e4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/b9a0b3fa-70ea-45e5-9593-7351d697026d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241018%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241018T062107Z&X-Amz-Expires=3600&X-Amz-Signature=00043e8fe65175e9842e7754d6fb8abb5f9b883e5fa52b91b657002a8d42bbfb&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### **Conclusion**
 Keras provides a straightforward approach to building and training classification models. For classification tasks, the model architecture and training process are similar to those used for regression, with the key differences being the activation functions and loss functions used. For more detailed information, refer to the Keras documentation on optimizers, models, and methods.
 ___
