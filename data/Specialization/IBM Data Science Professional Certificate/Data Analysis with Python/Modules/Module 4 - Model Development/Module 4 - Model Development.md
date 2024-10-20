@@ -17,7 +17,7 @@ This module delves into the process of model development, focusing on predictive
 ### Importance of Data
 A model, or estimator, is essentially a mathematical equation that predicts a value based on one or more other values. It relates one or more independent variables (features) to dependent variables (outcomes). The accuracy of the model often improves with the relevance and quantity of data. Including multiple independent variables can lead to more precise predictions.
 For instance, consider a scenario where predicting an outcome is based on several features. If the model's independent variables do not include a crucial feature, predictions may be inaccurate. Therefore, gathering more relevant data and exploring different types of models is cru1cial for robust model development.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0fa3b083-9d5c-4760-a35a-e329e27bc8a1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=3e8e40c58e2aeee10fb6935d8311b4e8cb6545d9c49749bbb214dc781557f959&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0fa3b083-9d5c-4760-a35a-e329e27bc8a1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=ac6f13feb8cc9e38c54d8473f84e11698fa7d63894a76090d8aabff26d5c03ee&X-Amz-SignedHeaders=host&x-id=GetObject)
 ___
 
 ## **1. Simple and Multiple Linear Regression**
@@ -31,7 +31,7 @@ The relationship is defined as:
 $ y = b_0 + b_1 x $
 - $ b_0 $: Intercept
 - $ b_1  $: Slope
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/dcc48d7a-ddef-4556-8880-b765ffea5656/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=b80f079a4d6e9c38495969d7b17f4b000b14894e0a881bbb209814607714739e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/dcc48d7a-ddef-4556-8880-b765ffea5656/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=506e5034d9290051f62f7582331ddd242249feb7265182dd273047af9db088ef&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Prediction Step
 If highway miles per gallon is 20, a linear model might predict the car price as $22,000, assuming a linear relationship.
 #### Training the Model
@@ -59,12 +59,12 @@ predicted_values = lm.predict(x)
 intercept = lm.intercept_
 slope = lm.coef_
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7c5736c8-35a4-49b8-9fb9-74d756a8b7b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=1bf3a9e6ae50a17dfef384ebcb7d5cad99d53d5f5fb5f8807e2bc4a9474de5d0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7c5736c8-35a4-49b8-9fb9-74d756a8b7b1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=31adec2878a52e0e5a2984618836a0bf155a85ffc6d41314e66b8d683286d05d&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### 1.2 Multiple Linear Regression (MLR)
 Multiple linear regression (MLR) extends SLR to include multiple predictor variables 
 ($ x1,x2, \ldots,xn $) to predict a continuous target variable ($ y $):
 $$ y=b_0+b_1x_1+b_2x_2+...+bn_xn_y  $$
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/74364aba-71e9-4c9f-bbb9-b7e62620571b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=4d2918b70cd1c3100f2df486b04e117a9239676b546104835ca36c85affd3a74&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/74364aba-71e9-4c9f-bbb9-b7e62620571b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=22934e75f606b225c99a07361a75422002b78d9cd5d2e35d85fc06ab90eec10b&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Visualization and Training
 With two predictor variables ($ x_1 $ and ), data points are mapped on a 2D plane, and () values are mapped vertically.
 #### Python Implementation
@@ -88,10 +88,10 @@ predicted_values = lm.predict(z)
 intercept = lm.intercept_
 coefficients = lm.coef_
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/2469ceef-2ef8-43f5-8ce1-bd5b5d12a495/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=725b62fe2cdedd762a731b5e4c8cd657c62c4b6a0740483c2a48a07f2d1c16b0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/2469ceef-2ef8-43f5-8ce1-bd5b5d12a495/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=eb570c881bbfa44b2bf6fea3c7fbeec0847611e07147a6818aaf8f983aca3e7d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 In summary, SLR and MLR provide methods to model relationships between variables, helping predict outcomes based on data observations.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9dfa2a06-f57b-44f8-8e17-9cb0123300c1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=86d7bab988fe8fe80664c4d87396431a7c2835c2da2f31286397c88954cec408&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9dfa2a06-f57b-44f8-8e17-9cb0123300c1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=275d0d1d58c50c0a4cf736aba6019706c51ff421b052bef51acf0e3c9d9c1b6d&X-Amz-SignedHeaders=host&x-id=GetObject)
 ___
 ## 2. Model Evaluation Using Visualization
 ### 1. Regression Plots
@@ -113,7 +113,7 @@ import seaborn as sns
 ```python
 sns.regplot(x='feature', y='target', data=df)
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/efc9c4a9-2fea-4b28-87e0-d9eb9e2462e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=41161418b2065f73a45520d41d1858264736b662d0bdd2f9a786cfb40f7f3184&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/efc9c4a9-2fea-4b28-87e0-d9eb9e2462e0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=09c5be658b0cbdc54c8559ac42e3e20c299ef2ae9e9e4bf3922612596108f411&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### 2. Residual Plots
 Residual plots represent the error between actual and predicted values.
 - **Process**:
@@ -134,8 +134,8 @@ import seaborn as sns
 ```python
 sns.residplot(x='feature', y='target', data=df)
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/8865a7c4-6c3a-4eb0-9992-911cb30106fb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=e1e2169d6f0332d7f1930e2f096f8aa45aabb0156d294efdcb93809eb7fcf18a&X-Amz-SignedHeaders=host&x-id=GetObject)
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/1238ba33-ad66-4d1d-9992-f51741c0b69b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=7e9a7693a3767721b50a8cdc88e8b7edaaacf477e9a6191cf8ea4c0a90699a57&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/8865a7c4-6c3a-4eb0-9992-911cb30106fb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=9131e480489478c79d9a7c497c0467588a0fc336874cb9fd93a0c3aee812d1b4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/1238ba33-ad66-4d1d-9992-f51741c0b69b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=625b7c603228434e31a9f2b30d57ecdcfd9a7d366596472d2ab36709f3fe1835&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### 3. Distribution Plots
 Distribution plots visualize predicted versus actual values.
 - **Use**: Helpful for models with multiple independent variables.
@@ -157,7 +157,7 @@ import seaborn as sns
 sns.kdeplot(predicted_values, color='blue', label='Predicted')
 sns.kdeplot(actual_values, color='red', label='Actual')
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/d5eed59c-92aa-4f87-88cf-1e131752a312/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=60ae7ebca46c2a1c02946f6ae5226868f48a78f71e5d8acfe500483f16454ab5&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/d5eed59c-92aa-4f87-88cf-1e131752a312/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=cf779da3ae2d5030088a12f95217692f88ac20e769c4bc1921785b7dfb261adf&X-Amz-SignedHeaders=host&x-id=GetObject)
 **Observation**: Prices in range from 40,000 to 50,000 are inaccurate, while 10,000 to 20,000 are closer to target values.
 ___
 ## 3. Polynomial Regression and Pipelines
@@ -165,7 +165,7 @@ ___
 #### What is Polynomial Regression?
 - **Purpose**: Used when linear regression isn't suitable.
 - **Approach**: Transforms data into polynomial form to capture curvilinear relationships.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/fefee895-81df-48b5-91f0-788641b6045e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111333Z&X-Amz-Expires=3600&X-Amz-Signature=b1b32d33ebc3f7f50f6bdec3287f147c0e8ddbc07a6646efc6918b4741d91c51&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/fefee895-81df-48b5-91f0-788641b6045e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122817Z&X-Amz-Expires=3600&X-Amz-Signature=f426cf78f00fa7de7bcf725755acc7c38f2ba2e9537f309d5f0431df4c8ed1db&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Types of Polynomial Models
 - **Quadratic (2nd Order)**: Includes squared terms.
 - **Cubic (3rd Order)**: Includes cubed terms.
@@ -219,7 +219,7 @@ x_scaled = scaler.fit_transform(x)
 #### What are Pipelines?
 - **Purpose**: Efficiently automate data preprocessing and model training.
 - **Benefit**: Simplifies complex workflows by chaining multiple steps into a single process.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/c62869ea-d1f8-44c7-9aec-aa8514f03e4b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111334Z&X-Amz-Expires=3600&X-Amz-Signature=a20f7fba133140c8cd7327cf343b2c2ad63e92091d555d75238a531be1664f43&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/c62869ea-d1f8-44c7-9aec-aa8514f03e4b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122818Z&X-Amz-Expires=3600&X-Amz-Signature=f813a00e753cb81dd081eb7a8775ff13c69a966a9dba80bae9014c2f09ea804b&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Benefits
 - **Efficiency**: Simplifies code by chaining steps.
 - **Maintainability**: Makes workflow clearer.
@@ -321,7 +321,7 @@ predicted = [210, 240, 310]
 mse = mean_squared_error(actual, predicted)
 print("MSE:", mse)  # Output: MSE: 100.0
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f5a8ae27-cc45-4723-aa6a-c8dbc6527bdf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111334Z&X-Amz-Expires=3600&X-Amz-Signature=2d2fd903abd047cac75f33a69802d5fc4ce703f632100e14587cbf3a45be1774&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f5a8ae27-cc45-4723-aa6a-c8dbc6527bdf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122818Z&X-Amz-Expires=3600&X-Amz-Signature=bfc75b27a9ed28dac187d45fed315f837170c45d56c3a0c1274ba0af7fc47b12&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### R-squared (Coefficient of Determination)
 - **Definition**: Indicates how well the data fits the regression line. Values range from 0 to 1, with values closer to 1 indicating a better fit.
 - **Formula**: $ R^2 = 1 - \frac{\text{MSE of regression}}{\text{MSE of mean}} $
@@ -348,7 +348,7 @@ print("R-squared:", r_squared)  # Output: R-squared: 0.9642857142857143
 - **Good Fit**: Small MSE for regression, larger for mean → $ R^2 $ near 1.
 - **Poor Fit**: Similar MSE for regression and mean → $ R^2 $ near 0.
 - **Negative **$ R^2 $: Possible overfitting.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9a75a205-fac8-4bc5-9a37-0e919c9dae58/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111334Z&X-Amz-Expires=3600&X-Amz-Signature=a087334199551d1c2a3c7f4fdf67f196f55e926dec583f9b007915be06d2d720&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9a75a205-fac8-4bc5-9a37-0e919c9dae58/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122818Z&X-Amz-Expires=3600&X-Amz-Signature=f8585144a19d0275f96ed7b47a4be0263d97a395c896dc347e67d51042fd09f3&X-Amz-SignedHeaders=host&x-id=GetObject)
 ___
 ## 5. Prediction and Decision Making
 ### Model Evaluation
@@ -356,7 +356,7 @@ To ensure a model's validity, use:
 - **Visualization**: Plot data to check trends and anomalies.
 - **Numerical Measures**: Metrics like MSE and R-squared.
 - **Comparison**: Evaluate different models.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/1ed3169f-d09f-4aa9-bda2-6b975ae8b131/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111334Z&X-Amz-Expires=3600&X-Amz-Signature=8f94289444213a8231f6680ecc1b16216047e05d883b41513c5753756276ae78&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/1ed3169f-d09f-4aa9-bda2-6b975ae8b131/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122818Z&X-Amz-Expires=3600&X-Amz-Signature=c21f8763c9015b1518d54ebefe84f36d862ac6ec0a786c3de4efd08ce1c676a6&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Example: Predicting Car Price
 - **Scenario**: Predict price for a car with 30 highway mpg.
 - **Result**: Price = $13,771.30 (reasonable value).
@@ -400,9 +400,9 @@ print("Predicted Price:", predicted_price[0])
 - **Interpretation**: Average squared difference between actual and predicted values.
 **Example MSEs:**
 - 495 (good fit)
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f986486a-7f71-47fb-b7a9-99fe89631b3b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111334Z&X-Amz-Expires=3600&X-Amz-Signature=36a3f80fc6d29e3ac39d4e3038bdcd3f58651bf3474ac2f210e0c3c5ecb530dd&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f986486a-7f71-47fb-b7a9-99fe89631b3b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122818Z&X-Amz-Expires=3600&X-Amz-Signature=98a3c33b46b198b67427e741bfab0f7676feab043720a8e5bb5c5bd55a914779&X-Amz-SignedHeaders=host&x-id=GetObject)
 - 12,870 (poor fit)
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/4f3ee92f-9d24-4aa2-a4c1-99dd746b3e26/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111334Z&X-Amz-Expires=3600&X-Amz-Signature=b2b4a16ba15541dab9edbb0907a8dda30a3acb1498fabc2add9e4db82857430d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/4f3ee92f-9d24-4aa2-a4c1-99dd746b3e26/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122818Z&X-Amz-Expires=3600&X-Amz-Signature=2d9f83b30ead7f58406e0916bc96fcf08cbb0efceefa57196cfa9267cc38a4d9&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 **Code Example:**
 ```python
@@ -430,7 +430,7 @@ print("R-squared:", r_squared)
 ### Model Comparison
 - **MLR vs. SLR**: More variables can lower MSE, but not always a better fit.
 - **Polynomial Regression**: Generally has lower MSE compared to linear regression.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9c93d33a-293b-48ea-a149-5cc33936fd0f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T111334Z&X-Amz-Expires=3600&X-Amz-Signature=dfc44457197543199db36cb2c80e2a21d40f4bd321d827c47998e6ab0cbf61c1&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9c93d33a-293b-48ea-a149-5cc33936fd0f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20241020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241020T122818Z&X-Amz-Expires=3600&X-Amz-Signature=c123878d4ff56f229fceff71b995dfb70a4daa99279f8176765fcc55b8f8e73f&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Conclusion
 - Evaluate models using both visualization and numerical metrics.
 - Consider context and domain for interpreting R² and MSE values.
