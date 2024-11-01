@@ -21,7 +21,7 @@ ___
 - **Description:** Includes functions for advanced math problems and data visualization.
 - **Features:** Solves complex mathematical problems.
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/997ac361-58a8-4f04-bb0f-79fea4baa761/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T091603Z&X-Amz-Expires=3600&X-Amz-Signature=af51d5f5a90a1286c410bae2a847c3e945c8da5f300f2dd19ac9620157785c3b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/997ac361-58a8-4f04-bb0f-79fea4baa761/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T101641Z&X-Amz-Expires=3600&X-Amz-Signature=7259bc96a2555f5f1754906dfbb30927cb07bf8e328d6254c4a1bca62c8f1cd4&X-Amz-SignedHeaders=host&x-id=GetObject)
 ___
 ### Data Visualization Libraries
 #### 1. **Matplotlib**
@@ -31,7 +31,7 @@ ___
 - **Description:** A high-level visualization library based on Matplotlib.
 - **Features:** Easy to generate various plots like heat maps, time series, and violin plots.
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/733d1e42-5a53-4fd8-90c1-3d85254369a6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T091600Z&X-Amz-Expires=3600&X-Amz-Signature=1accae8adc7338eaa79cc3e2560b563402957d888bcd94060801369525869a8e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/733d1e42-5a53-4fd8-90c1-3d85254369a6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T101639Z&X-Amz-Expires=3600&X-Amz-Signature=477d7e893a427049ef0c6de898f394ac11eb8822db3244deb31e3a60a59835f1&X-Amz-SignedHeaders=host&x-id=GetObject)
 ___
 ### Algorithmic Libraries
 #### 1. **Scikit-learn**
@@ -40,7 +40,7 @@ ___
 #### 2. **Statsmodels**
 - **Description:** A module for exploring data, estimating statistical models, and performing statistical tests.
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/c62885f5-417d-4179-834f-d68f8f2bdf39/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T091600Z&X-Amz-Expires=3600&X-Amz-Signature=520bee815dc1ab055a2d078f54931fb03e8ccfbfa7e39dee9b7242e54ddec724&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/c62885f5-417d-4179-834f-d68f8f2bdf39/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241101%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241101T101639Z&X-Amz-Expires=3600&X-Amz-Signature=a3c6ec02b386cd758b3837751908b81ca165a8777894dabe260d65a6d98b5564&X-Amz-SignedHeaders=host&x-id=GetObject)
 ___
 ## Reading Data with Pandas
 Data acquisition is the process of loading and reading data into a notebook from various sources. Using Python’s Pandas package, we can efficiently read and manipulate data.
