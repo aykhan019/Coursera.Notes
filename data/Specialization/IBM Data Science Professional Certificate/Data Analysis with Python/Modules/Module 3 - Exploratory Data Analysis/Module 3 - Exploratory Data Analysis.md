@@ -72,7 +72,7 @@ Box plots help compare distributions between groups.
 import seaborn as sns
 sns.boxplot(x='drive-wheels', y='price', data=df)
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7e6d594d-952e-44b6-97ea-31225882aea6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062516Z&X-Amz-Expires=3600&X-Amz-Signature=443824e0f9da8ec87f960ba8e652b3124c6ba668138fa716bceb3cb677aa0e9c&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7e6d594d-952e-44b6-97ea-31225882aea6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071518Z&X-Amz-Expires=3600&X-Amz-Signature=b4d25e2792404e8edca1d4811692a2cb26d706f84fa2520e2720d3e1a1015020&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Scatter Plots
 Scatter plots visualize the relationship between two continuous variables. They help identify how changes in one variable are associated with changes in another.
 - **Predictor Variable:** The variable used to predict an outcome (e.g., engine size).
@@ -90,7 +90,7 @@ plt.title('Scatterplot of Engine Size vs Price')
 plt.show()
 ```
 ![insert_image_url_here](insert_image_url_here)
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/cbfaed9e-b398-4902-8936-dea058b21def/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062516Z&X-Amz-Expires=3600&X-Amz-Signature=4e3ea1fff105e58c675303ada37619ace463c9beb97b33961aed48707e10ce82&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/cbfaed9e-b398-4902-8936-dea058b21def/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071518Z&X-Amz-Expires=3600&X-Amz-Signature=767a9790ddb207b5a3a8425f7062cda5a9f56485222d58a0ee2af49ed4bc6a65&X-Amz-SignedHeaders=host&x-id=GetObject)
 From the scatter plot, you can observe that as engine size increases, the price of the car also increases, indicating a positive linear relationship.
 ![insert_image_url_here](insert_image_url_here)
 ___
@@ -152,7 +152,7 @@ plt.title('Title')
 plt.show()
 ```
 #### **Example Output**
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/91181646-b1e0-4433-9711-6259a96a9247/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062516Z&X-Amz-Expires=3600&X-Amz-Signature=14b286b81b8ea9e4f549aa456e9c5dc4c7cdcc695524699e2ca8c11d7656bad2&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/91181646-b1e0-4433-9711-6259a96a9247/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071518Z&X-Amz-Expires=3600&X-Amz-Signature=f1b2b4e9cd6a15038f307eae94669feca1d402832860daec641b8af025cfa86d&X-Amz-SignedHeaders=host&x-id=GetObject)
 ![placeholder_for_image](placeholder_for_image)
 
 Using the `groupby` method, pivot tables, and heatmaps provides valuable insights into the relationships between different variables in the dataset.
@@ -187,7 +187,7 @@ The simplest and most fundamental plot is a standard line plot. The function exp
 plt.plot(x, y)
 ```
 **Example Output:**
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/09aba1c0-0d55-41dd-852a-a04c5b8a3fac/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062517Z&X-Amz-Expires=3600&X-Amz-Signature=53502b8a7940cb98986d10c3816e289ff1f1b34857dfb196ebbbc571ec686cd3&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/09aba1c0-0d55-41dd-852a-a04c5b8a3fac/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071518Z&X-Amz-Expires=3600&X-Amz-Signature=2b6d5007584f6eee15aa2288935cb127f59c2301c1b14a2e85e49a35a901c3c9&X-Amz-SignedHeaders=host&x-id=GetObject)
 ![](#)
 ___
 #### 2. Scatter Plot
@@ -197,7 +197,7 @@ Scatter plots present the relationship between two variables in a dataset. It re
 plt.scatter(x, y)
 ```
 **Example Output:**
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/23708af9-659f-4f23-b626-1a4292d7842c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062517Z&X-Amz-Expires=3600&X-Amz-Signature=d3ff12fe6ba66f4062c1d6365b77979f4d8ec9884a9bd1e9c06277e7a7408ef3&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/23708af9-659f-4f23-b626-1a4292d7842c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071518Z&X-Amz-Expires=3600&X-Amz-Signature=546abfa2229cfca7ab127031fecd60748d06ca3dc1510181f76384a887ca1aaf&X-Amz-SignedHeaders=host&x-id=GetObject)
 ![](#)
 ___
 #### 3. Histogram
@@ -207,7 +207,7 @@ A histogram is an important visual representation of data in categorical form. T
 plt.hist(x, bins)
 ```
 **Example Output:**
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/24e4424a-df87-40a1-b63b-195cbdc2e0ab/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062517Z&X-Amz-Expires=3600&X-Amz-Signature=265d3da7d736b146ff4eadd73f2df883fa9b4d3520a1341c026b146c195c983f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/24e4424a-df87-40a1-b63b-195cbdc2e0ab/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071518Z&X-Amz-Expires=3600&X-Amz-Signature=ac12d70fbf8e5bf070758d4dc3c56f5cd78a858603f8a42bfa416867ad0e25e4&X-Amz-SignedHeaders=host&x-id=GetObject)
 ![](#)
 Use an additional argument, `edgecolor`, for better clarity of plot.
 ___
@@ -218,7 +218,7 @@ A bar plot is used for visualizing categorical data. The y-axis represents the n
 plt.bar(x, height)
 ```
 **Example Output:**
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ab5a6dfe-51f5-43ee-bcb3-33dae4a1c7ad/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062517Z&X-Amz-Expires=3600&X-Amz-Signature=f5ebdc5cbb7a177dcc60c21998b473f88741907bd20d8530830541a445420f59&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ab5a6dfe-51f5-43ee-bcb3-33dae4a1c7ad/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071518Z&X-Amz-Expires=3600&X-Amz-Signature=34f6c469eab336bccd1685d3ef49d0dfc91f6fe4373d2d5fb22d7130f1dace9a&X-Amz-SignedHeaders=host&x-id=GetObject)
 Here, `x` is the categorical variable, and `height` is the number of values belonging to the category. You can adjust the width of each bin using an additional `width` argument in the function.
 ![](#)
 ___
@@ -230,7 +230,7 @@ plt.pcolor(C)
 ```
 You can define an additional `cmap` argument to specify the color scheme of the plot.
 **Example Output:**
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/8f1b1d60-cf1b-42b3-9faa-f634c89c3f84/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062517Z&X-Amz-Expires=3600&X-Amz-Signature=c18b7be24622debff434cac88f75f21f907e0eb7d285608396710ae4893cb18e&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/8f1b1d60-cf1b-42b3-9faa-f634c89c3f84/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071518Z&X-Amz-Expires=3600&X-Amz-Signature=97c496910c0e3acf32d423d6d354ab28412015ce127b0f357cb0d0f0ef27a3c7&X-Amz-SignedHeaders=host&x-id=GetObject)
 ![](#)
 ___
 ### Seaborn Functions
@@ -241,7 +241,7 @@ A regression plot draws a scatter plot of two variables, `x` and `y`, and then f
 sns.regplot(x='header_1', y='header_2', data=df)
 ```
 **Example Output:**
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/13ad0497-05fe-4eaa-984e-707b33e14761/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062517Z&X-Amz-Expires=3600&X-Amz-Signature=2aa9f93a544ccf652de3d960118ba3abd79aef1894dc827ecfad393f56e50654&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/13ad0497-05fe-4eaa-984e-707b33e14761/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071519Z&X-Amz-Expires=3600&X-Amz-Signature=c713aa90f2f084a976c7cfc998805993e630f0b6b9e67209d3928022335c9bf5&X-Amz-SignedHeaders=host&x-id=GetObject)
 ![](#)
 ___
 #### 2. Box and Whisker Plot
@@ -253,9 +253,9 @@ sns.boxplot(x='header_1', y='header_2', data=df)
 **Example Output:**
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/d207ae92-0a7c-4e2f-aa65-0ee5a2c33bf7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062519Z&X-Amz-Expires=3600&X-Amz-Signature=84a271f72ee15064eb337c6da58c779bbd36c1cc2355d82a6743c3cef0fa3538&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/d207ae92-0a7c-4e2f-aa65-0ee5a2c33bf7/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071520Z&X-Amz-Expires=3600&X-Amz-Signature=c2b2b1c1b7b3f69bb415f1290df93a357892d1222a86fc3e3580bcdb1f963a81&X-Amz-SignedHeaders=host&x-id=GetObject)
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0e516edc-7551-4792-ab18-0494db3c4c0c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062519Z&X-Amz-Expires=3600&X-Amz-Signature=049c70c4c28f94e3a4f5383d7c8253e94e66fe65fa89bcd4646a7d1f15548a85&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0e516edc-7551-4792-ab18-0494db3c4c0c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071520Z&X-Amz-Expires=3600&X-Amz-Signature=fc3c8857c97f9e364167a6e77b621a8a050deb7c22c8b0d8a5cdaf8fdb9b0fd8&X-Amz-SignedHeaders=host&x-id=GetObject)
 ![](#)
 ___
 #### 3. Residual Plot
@@ -269,7 +269,7 @@ Alternatively:
 sns.residplot(x=df['header_1'], y=df['header_2'])
 ```
 **Example Output:**
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/23a79b9d-2356-49a9-8fd9-65c6b0ab2cc5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062517Z&X-Amz-Expires=3600&X-Amz-Signature=d18fedd2c35ccd57d5d4519ccf95c2f5802b1a89caf9096693f88f812e31fe7f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/23a79b9d-2356-49a9-8fd9-65c6b0ab2cc5/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071519Z&X-Amz-Expires=3600&X-Amz-Signature=95801fc2bd0a0d9a3a5b2638ce869cb7e2a2b2fbf7f975a57065592582bc3996&X-Amz-SignedHeaders=host&x-id=GetObject)
 ![](#)
 ___
 #### 4. KDE Plot
@@ -279,7 +279,7 @@ A Kernel Density Estimate (KDE) plot is a graph that creates a probability distr
 sns.kdeplot(X) || sns.kdeplot(df['age'])
 ```
 **Example Output:**
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0d571213-2a2f-4921-a50b-880847aa05ee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062517Z&X-Amz-Expires=3600&X-Amz-Signature=23246e45315650e896afcdc5c4ff5683992a7feb8b49c52873aa015ce934f979&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0d571213-2a2f-4921-a50b-880847aa05ee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071519Z&X-Amz-Expires=3600&X-Amz-Signature=8d8053c7a09f0ebbe68c20e4b91aea17ea6a5091b4949e387d541d5d41dc4507&X-Amz-SignedHeaders=host&x-id=GetObject)
 ![](#)
 ___
 #### 5. Distribution Plot
@@ -290,7 +290,7 @@ sns.distplot(X, hist=False)
 ```
 Keeping the argument `hist` as `True` would plot the histogram along with the distribution plot.
 **Example Output:**
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/53752550-ef82-4ca9-a01a-09921f0282d0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062517Z&X-Amz-Expires=3600&X-Amz-Signature=ff106ff672846ba32cec723031f632d71e6d3d8a93b22a392ec6cbb808ff5945&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/53752550-ef82-4ca9-a01a-09921f0282d0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071519Z&X-Amz-Expires=3600&X-Amz-Signature=44dd29c0ac553f73bd731e91685059dd86ba3774e99c68520670939f40466266&X-Amz-SignedHeaders=host&x-id=GetObject)
 ![](#)
 ___
 ## 4. Correlation Between Variables
@@ -300,7 +300,7 @@ Positive correlation indicates that as one variable increases, the other variabl
 **Example: Engine Size and Price**
 - **Positive Correlation:** Engine size increases, price also increases.
 - **Visualization:** Scatter plot with a steep positive slope.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0c7ea9b0-3ef3-4357-a9c3-554fc71b6b15/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062519Z&X-Amz-Expires=3600&X-Amz-Signature=19ed377d1ba5fcb981188293b6f74af1e89c14efc3fa6ece596c603b8d201ac0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/0c7ea9b0-3ef3-4357-a9c3-554fc71b6b15/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071520Z&X-Amz-Expires=3600&X-Amz-Signature=be129a016e1af0b81ed9900350ad8c9d5cbcc292e31428660b643ceda4df1fe1&X-Amz-SignedHeaders=host&x-id=GetObject)
 **Explanation:** When engine size increases, there is a corresponding increase in the price of the vehicle. This positive correlation suggests that larger engines tend to be associated with higher prices in the market.
 ___
 ### Negative Correlation
@@ -308,7 +308,7 @@ Negative correlation indicates that as one variable increases, the other variabl
 **Example: Highway Miles per Gallon and Price**
 - **Negative Correlation:** As highway miles per gallon increases, price decreases.
 - **Visualization:** Scatter plot with a steep negative slope.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/10f1f798-9cc4-4df2-a9c1-5a339f554a0b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062519Z&X-Amz-Expires=3600&X-Amz-Signature=c06b93af7263b92b0a88354f26d365308cf9e7464055062b6288392d54cc5d8d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/10f1f798-9cc4-4df2-a9c1-5a339f554a0b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071520Z&X-Amz-Expires=3600&X-Amz-Signature=1803fa10af8bf9f3ee5da57ce20e10612c63aa0e4e1cbf6f3e5219247e143213&X-Amz-SignedHeaders=host&x-id=GetObject)
 **Explanation:** When highway miles per gallon increases, the price of the vehicle tends to decrease. This negative correlation suggests that cars with higher fuel efficiency (more miles per gallon) are generally priced lower in the market.
 ___
 ### Weak Correlation
@@ -316,7 +316,7 @@ Weak correlation indicates a lack of strong relationship between the variables.
 **Example: RPM and Price**
 - **Weak Correlation:** Low and high RPM values show varied prices, indicating no strong predictive relationship.
 - **Visualization:** Scatter plot with no clear trend or slope.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9f914514-8914-4bf4-ac84-d9e3077f6eb1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062519Z&X-Amz-Expires=3600&X-Amz-Signature=c1fe0b077868524cbf69a2deeeaf1609957be72152e59b7e86df468bbdd8ce99&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9f914514-8914-4bf4-ac84-d9e3077f6eb1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071519Z&X-Amz-Expires=3600&X-Amz-Signature=37675cc9f50eb61bdc9cacaf232d51bb68098b29cda47dd255b06ae10c78d3c2&X-Amz-SignedHeaders=host&x-id=GetObject)
 **Explanation:** RPM (engine revolutions per minute) does not strongly predict the price of the vehicle. Both low and high RPM values can be associated with a wide range of prices, indicating that RPM alone is not a reliable indicator of vehicle price.
 ### **Important Note**
 Correlation does not imply causation. It signifies a relationship but does not determine cause and effect.
@@ -340,12 +340,12 @@ Pearson Correlation provides:
 	- > 0.1: No certainty.
 #### Example: Horsepower and Car Price
 Example examines correlation between horsepower and car price using Pearson Correlation. Correlation coefficient is approximately 0.8, indicating strong positive correlation. p-value is much < 0.001, confirming strong certainty.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f18086e5-5b04-4fbf-8309-8944ab20d213/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062518Z&X-Amz-Expires=3600&X-Amz-Signature=101ae7e5e1ae0d10f42b49f5492de5a4611c1b21ae1be11d78c3e5c8b41e5772&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f18086e5-5b04-4fbf-8309-8944ab20d213/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071519Z&X-Amz-Expires=3600&X-Amz-Signature=69c50486875f203d01f8424dda1e6ceaa36dee3ce4bb2f8d1ada036a52ccc518&X-Amz-SignedHeaders=host&x-id=GetObject)
 ___
 ### Correlation Plot
 Heatmap visualizes correlations among variables. Color scheme indicates Pearson correlation coefficients. Dark red diagonal line shows perfect correlation (value of 1) between variables and themselves.
 This heatmap offers overview of variable relationships and their link with price.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/cd3b341e-cc1a-45f7-8aec-cdc00436d270/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T062518Z&X-Amz-Expires=3600&X-Amz-Signature=98f5665d5bfef7156dfe1261e76863e746004dfee172b1105732bc647cc89ec1&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/cd3b341e-cc1a-45f7-8aec-cdc00436d270/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241115T071519Z&X-Amz-Expires=3600&X-Amz-Signature=c0e14ad1645083b2b8150258a74e285fa766ea62a2252f1148543e5d1c51cc45&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 **Note:** To calculate the Pearson Correlation Coefficient and P-value, use statistical functions available in Python libraries like `scipy.stats.pearsonr`.
 ```python
