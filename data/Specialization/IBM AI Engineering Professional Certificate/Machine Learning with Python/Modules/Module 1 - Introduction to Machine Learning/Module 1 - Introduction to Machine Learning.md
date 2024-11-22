@@ -6,7 +6,7 @@ Machine Learning is a subfield of computer science that gives computers the abil
 ### How Does Machine Learning Work?
 Machine Learning algorithms, inspired by the human learning process, iteratively learn from data. These algorithms allow computers to discover hidden insights and patterns within large datasets. The models created through Machine Learning can assist in a variety of tasks, such as object recognition, text summarization, recommendation systems, and more.
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f70e0ef3-5da8-43ee-97c7-307c710790ce/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T182147Z&X-Amz-Expires=3600&X-Amz-Signature=5509714dc63acfcc7236e9fe1f623fe177508b8acc5a7757d232f0a421fce377&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f70e0ef3-5da8-43ee-97c7-307c710790ce/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T191217Z&X-Amz-Expires=3600&X-Amz-Signature=79f7f05904f2637eb4d4e26fa1d1f7ea80c40ef7eff5a93739d4626825a06414&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 ### Major Machine Learning Techniques
 ___
@@ -97,7 +97,7 @@ ___
 	- **Outcome**: The system suggests movies that users are likely to enjoy.
 	- **Benefit**: Enhances user experience and increases engagement.
 ___
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f3682ae8-1011-4662-9f34-0e5b8ac9951f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T182147Z&X-Amz-Expires=3600&X-Amz-Signature=a86a567cae3b161fe91f6363b338968f1f6309f8c34e122a3c6b61fb62009ea9&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f3682ae8-1011-4662-9f34-0e5b8ac9951f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T191217Z&X-Amz-Expires=3600&X-Amz-Signature=4c50a237a1b814c52897e5e2b62fce5f6646720b821427de32fadb458d9c8fc2&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Note
 Sequence mining identifies patterns based on the order of events, while association rule learning focuses on identifying co-occurrence patterns without considering the order of items.
 
@@ -130,11 +130,11 @@ SciKit Learn is a comprehensive machine learning library that integrates seamles
 - **Evaluation**: Assessing accuracy with metrics like a confusion matrix, visualizing model performance.
 - **Model Exporting**: Saving trained models for future use, enabling easy deployment.
 A typical workflow with SciKit Learn involves pre-processing the data, splitting it into training and testing sets, building and training a classifier, making predictions, evaluating the model, and saving it for future use.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/b437e049-e272-41b4-bb95-e2807ba514ca/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T182147Z&X-Amz-Expires=3600&X-Amz-Signature=04d03d3466de5e0860a051bc48395fbbd4ed9fbc3a5a6884bcdf274ee296cb03&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/b437e049-e272-41b4-bb95-e2807ba514ca/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T191217Z&X-Amz-Expires=3600&X-Amz-Signature=e208f2ad8e020a3eb91a6688f1f6022436e77749350ca87b28bf85d6a8c9ec45&X-Amz-SignedHeaders=host&x-id=GetObject)
 ___
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/cea31c5d-b49d-4d39-8566-ec7e66e033b4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T182147Z&X-Amz-Expires=3600&X-Amz-Signature=c70a985a5950b10db33cc9b38dfc4ae4cf2ca8791da1a9089ba1745c032cfdb3&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/cea31c5d-b49d-4d39-8566-ec7e66e033b4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T191217Z&X-Amz-Expires=3600&X-Amz-Signature=634a97bf30cb8c2e90e1cc97dac2715aa836a61fc17d5c05b891ed700c99498c&X-Amz-SignedHeaders=host&x-id=GetObject)
 ___
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/a7c7fcb1-e868-4073-9392-bd1424f11933/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T182147Z&X-Amz-Expires=3600&X-Amz-Signature=c2ca0d7169780119df7335b3bf87b692cc100c9fe92168b1c6eeb48425166da4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/a7c7fcb1-e868-4073-9392-bd1424f11933/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T191217Z&X-Amz-Expires=3600&X-Amz-Signature=eefa311d079f85a25ebc1587cfd4ce54b3abb2bb4cbb6d3b20fe1e84e8eb755c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 Understanding and leveraging these packages, especially SciKit Learn, simplifies the machine learning process and reduces the amount of coding required compared to using pure Python or other individual packages.
 
@@ -146,7 +146,7 @@ Supervised learning involves teaching a machine learning model using a labeled d
 - **Types of Supervised Learning**:
 	- **Classification**: Predicts discrete class labels. For example, classifying emails as spam or not spam.
 	- **Regression**: Predicts continuous values. For example, predicting the CO2 emission of a car based on its engine size and number of cylinders.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/d97478ab-3688-44b7-9ac9-b31943e9e39a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T182147Z&X-Amz-Expires=3600&X-Amz-Signature=fb8ca956a320db00e280df69a4a6b25a1bb69f55f3aab76365fecc1cb4a47173&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/d97478ab-3688-44b7-9ac9-b31943e9e39a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T191217Z&X-Amz-Expires=3600&X-Amz-Signature=e243688dfc0634d0cfbd0d1b6e69173dee05966200262c816e3047773e510aea&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### **Unsupervised Learning**
 Unsupervised learning involves training a model on data without labeled responses. The model tries to learn the underlying structure of the data on its own.
 - **Common Unsupervised Learning Techniques**:
@@ -154,7 +154,7 @@ Unsupervised learning involves training a model on data without labeled response
 	- **Dimensionality Reduction**: Reducing the number of features in the data to simplify the model and make the classification easier.
 	- **Market Basket Analysis**: Identifying items that frequently co-occur in transactions.
 	- **Density Estimation**: Exploring the data to find some underlying structure.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/efcaecea-9440-472e-8abf-cb0ac379999a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T182147Z&X-Amz-Expires=3600&X-Amz-Signature=55efffafba17db092eaf41d858224d236f57e0ab2632d1caeb3130427caea22d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/efcaecea-9440-472e-8abf-cb0ac379999a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241122%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241122T191217Z&X-Amz-Expires=3600&X-Amz-Signature=682d2274e752c963504bd48a7430d8a014fa16a536635e4a562dda974ffbef25&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 #### **Key Differences Between Supervised and Unsupervised**
 - **Data**:
