@@ -44,11 +44,11 @@ ___
 Convolutional Neural Networks (CNNs) are a specialized type of neural network designed for processing structured grid data such as images. This note covers the fundamental architecture of CNNs, their operational mechanisms, and how to build them using the Keras library.
 #### Convolutional Neural Networks (CNNs)
 ### Architecture
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/a856b76b-1241-47c1-a61e-debae39d7c40/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=4bb6921abed2439f15db695f8565c39507e846b8810d6ab8f6ccdef4846fde61&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/a856b76b-1241-47c1-a61e-debae39d7c40/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082053Z&X-Amz-Expires=3600&X-Amz-Signature=4c57e1258dfe7114b7e8f0e58da01e1f6a643991107916a52260119e672679bb&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Image Input Dimensions
 - **Grayscale Images**: (n x m x 1)
 - **Colored Images**: (n x m x 3), where 3 represents RGB channels.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/c425f6cf-48e6-47ec-a267-b9616abf9492/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=22d7b54f9ccd35315ca759afd37c12aea1f7f32ce643a1da90cd0a08c42ebb80&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/c425f6cf-48e6-47ec-a267-b9616abf9492/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082053Z&X-Amz-Expires=3600&X-Amz-Signature=8c4fcd60c6c219c09a32c342ab2be8ed1dc98e4365578d2ccea9a4ae5c391a3d&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Key Components of CNNs
 #### 1. Convolutional Layer
 - **Purpose**: Applies filters to the input image to produce feature maps.
@@ -57,12 +57,12 @@ Convolutional Neural Networks (CNNs) are a specialized type of neural network de
 	- **Filter Size**: e.g., (2 x 2)
 	- **Stride**: The number of pixels by which the filter moves across the image.
 	- **Output**: An empty matrix filled with results from the convolution process
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f46f7f48-ccab-4a7b-adb0-4b63dbd530da/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=34d15f04ba48fbffa7d964fc31bae169356e02e8494fd789b5f99ec54986d2f1&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f46f7f48-ccab-4a7b-adb0-4b63dbd530da/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082053Z&X-Amz-Expires=3600&X-Amz-Signature=bf7c243c6770082f77743b271187b12fc36ebb87e9ba987ccce57f17b2882399&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### 2. Activation Function (ReLU)
 - **Purpose**: Introduces non-linearity into the model.
 - **Operation**: Applies the ReLU (Rectified Linear Unit) function to the output of the convolutional layer.
 	- **ReLU Function**: Outputs the input directly if it is positive; otherwise, it outputs zero.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7660e416-eb44-4488-b210-c6c586e99cc4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=748a04b2f97fb02b3fa60371ab906fa97a59fb7e909894b22d30c4e077f7c85a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7660e416-eb44-4488-b210-c6c586e99cc4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082053Z&X-Amz-Expires=3600&X-Amz-Signature=d56780a3c91ea19a4955636e64395657cb75e82f3c98fd6ee9df777d55907402&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### 3. Pooling Layer
 - **Purpose**: Reduces the spatial dimensions of the feature maps.
 - **Types**:
@@ -71,13 +71,13 @@ Convolutional Neural Networks (CNNs) are a specialized type of neural network de
 		- **Stride**: The number of pixels by which the pooling filter moves.
 	- **Average-Pooling**: Computes the average value from each section of the feature map.
 - **Benefit**: Reduces computational complexity and helps prevent overfitting.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/8791e5e6-af9f-45eb-a433-23a7c733feb1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=ff43424309b8946f4fdd91b05bc9e27f12bfc445e68393e11bff969ebe50232e&X-Amz-SignedHeaders=host&x-id=GetObject)
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/4c528212-221a-47dc-9d7c-9ae194171597/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=2e66b90c60ade381b179f8c8345c1e73d2d8f4acf77035b9ac6912e2cf83a32f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/8791e5e6-af9f-45eb-a433-23a7c733feb1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082053Z&X-Amz-Expires=3600&X-Amz-Signature=80998c527893ca96d1f42524e9092e06794f4a226e9680e7a4f5cabcce7c4d73&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/4c528212-221a-47dc-9d7c-9ae194171597/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082053Z&X-Amz-Expires=3600&X-Amz-Signature=f038cd2e0b7e048ab949c85bc0fb906265de0683e9192f0be1eb203ebb1eb10d&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### 4. Fully Connected Layer
 - **Purpose**: Connects every node from the previous layer to every node in the current layer.
 - **Operation**: Flattens the output from the previous layers and produces an n-dimensional vector, where n corresponds to the number of classes.
 - **Activation Function**: Typically uses the softmax function to convert the outputs into probabilities.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/51e84329-f1c0-4784-a080-d1fbd5c4d0ae/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=45f59a68122e440a68559d4c935b0b1710f16e9e53073d824b57d3608dc5df03&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/51e84329-f1c0-4784-a080-d1fbd5c4d0ae/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082053Z&X-Amz-Expires=3600&X-Amz-Signature=0d4f0d85292cc100751b880b7c9adf42b51e0c97574b026dec8298361f5312b1&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### CNN Architecture
 - **Input Layer**: Defines the size of the input images (e.g., 128 x 128 x 3 for color images).
 - **Convolutional Layers**: Apply multiple filters and include ReLU activation.
@@ -148,7 +148,7 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 			- `metrics=['accuracy']`: Evaluation metric used to measure the performance of the model.
 6. **Training and Validation**:
 	- Train the model using the `fit` method and validate using a test set.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/47b54c06-9f0d-49d3-9183-2d29bfa51d80/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=16f716bdb0c82591cc3b46de978fbd51bd9db92d24619fb5708f85cdf1647d30&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/47b54c06-9f0d-49d3-9183-2d29bfa51d80/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082053Z&X-Amz-Expires=3600&X-Amz-Signature=2b26a03123cae3d88be30f786f7897109c065e08df6939072245094c84df757f&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Conclusion
 CNNs are powerful for image processing tasks due to their ability to automatically extract and learn features from images. The architecture involves convolutional, activation, pooling, and fully connected layers, which collectively enable the network to perform tasks such as image recognition and object detection.
 ___
@@ -161,7 +161,7 @@ ___
 	- At time `t = 0`, the network takes in input $ x_0 $ and outputs $ a_0 $.
 	- At time `t = 1`, the network takes in input $ x_1 $` `and the previous output $ a_0 $, weighted by $ w_{1,2} $.
 	- This process continues, incorporating previous outputs into the computation at each step.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/88d6b2af-f6f0-4932-984c-b68479fb8ab5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=c2969b7984af048cd67a8a07dffa40708dd31b788bc1517e7ef1f31053ccccc5&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/88d6b2af-f6f0-4932-984c-b68479fb8ab5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082053Z&X-Amz-Expires=3600&X-Amz-Signature=23fb18b0930db49445e05f0f225c91d093af6db83b3b9624f6d98466b76da355&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Applications of RNNs
 - **Text Analysis**: Suitable for processing and modeling sequential text data.
 - **Genomic Data**: Can analyze sequences in genetic information.
@@ -188,7 +188,7 @@ ___
 	- Compresses the input data into a lower-dimensional representation.
 - **Decoder**:
 	- Reconstructs the original data from the compressed representation.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/13d5eb4d-dac0-40e6-97fb-d5688c6a13e7/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=a01fcf564dd61ac31be1e446f2ac2d98886fadf4d27c6345f87daa2c44e9f17c&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/13d5eb4d-dac0-40e6-97fb-d5688c6a13e7/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082054Z&X-Amz-Expires=3600&X-Amz-Signature=a1ade0ddfa89791adb04f47aef7b2727814ae8f2010f975a0d2e6a803770c18a&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Applications of Autoencoders
 - **Data Denoising**: Removing noise from data to recover the original signal.
 - **Dimensionality Reduction**: Reducing the number of features in the data for visualization purposes.
@@ -199,7 +199,7 @@ ___
 	- **Fixing Imbalanced Datasets**: Generating more data points for minority classes to balance datasets.
 	- **Estimating Missing Values**: Predicting missing feature values in datasets.
 	- **Automatic Feature Extraction**: Learning features from unstructured data.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/e56b5c68-d1d6-4a40-986f-30aa54ab7681/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T071603Z&X-Amz-Expires=3600&X-Amz-Signature=dde6d21f197194f5d7a7360dab79f664dd2eeb7531a2af898a70c7ec0a89e017&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/e56b5c68-d1d6-4a40-986f-30aa54ab7681/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241203%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241203T082054Z&X-Amz-Expires=3600&X-Amz-Signature=b1228c3f2d06caa0989e0d55888f00009f813595e528919c573900e292d41041&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Summary
 - **Autoencoders**: Useful for data compression, denoising, and dimensionality reduction.
 - **RBMs**: Specialized autoencoders effective for handling imbalanced datasets, estimating missing values, and feature extraction.
