@@ -4,8 +4,8 @@
 ## Clustering: An Introduction
 ### Overview of Clustering
 Clustering is an unsupervised learning technique used to group similar data points into clusters based on their characteristics. This method is commonly applied in various domains to segment data, identify patterns, and make predictions.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9cb01ce9-5e0d-49ef-8f43-c9db38fbc0e0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T171415Z&X-Amz-Expires=3600&X-Amz-Signature=bfbb14b025937ecdae7d2779956d507e3c2abfa8ee6bdaa9c7dae6cd5b243ac7&X-Amz-SignedHeaders=host&x-id=GetObject)
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ede0dba7-3f63-4051-85fd-51f2f38eeeb5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T171415Z&X-Amz-Expires=3600&X-Amz-Signature=ee5b429ec805ca63aecb81e31567d61bdf15cf7e25d87a52028660ea04e14997&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9cb01ce9-5e0d-49ef-8f43-c9db38fbc0e0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T182233Z&X-Amz-Expires=3600&X-Amz-Signature=c6d24f774096831530539fc7a7bd87a2e9baaf8c21a47a7e577ad82a283aacbf&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ede0dba7-3f63-4051-85fd-51f2f38eeeb5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T182233Z&X-Amz-Expires=3600&X-Amz-Signature=786c2d92b8130021ccab408287c1a8c1e76aadaf28f27761c1860dae6f9e1e22&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Applications of Clustering
 1. **Customer Segmentation**:
 	- Clustering is widely used for customer segmentation in marketing. It helps businesses to group customers based on demographic or behavioral similarities, allowing for targeted marketing strategies.
@@ -37,7 +37,7 @@ Clustering is an unsupervised learning technique used to group similar data poin
 9. **Density-based Clustering**:
 	- Creates arbitrary-shaped clusters with algorithms such as **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**.
 	- Useful for spatial data or noisy datasets.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/23d540d1-3363-46c0-b145-c20928ff781b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T171416Z&X-Amz-Expires=3600&X-Amz-Signature=71241743c67c4a9b987afb9af22921bbe5329927a827bd33767beb34d3b761cb&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/23d540d1-3363-46c0-b145-c20928ff781b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T182233Z&X-Amz-Expires=3600&X-Amz-Signature=cc1df772cb7ea1632fdef28066c36df8c85962775fdc34ae98ef6d43f5330e89&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Differences Between Clustering and Classification
 - **Clustering**:
 	- Unsupervised learning.
@@ -60,7 +60,7 @@ K-Means Clustering is an unsupervised learning algorithm used for partitioning a
 ### Key Concepts
 - **Customer Segmentation**: Dividing a customer base into groups with similar characteristics.
 - **Partitioning Clustering**: K-Means is a type of partitioning clustering that divides data into K non-overlapping clusters.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/8af3f76b-b350-4668-99db-ffde6afd7a48/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T171416Z&X-Amz-Expires=3600&X-Amz-Signature=7b58913b727d57e18c80444977e7ad2acab1e0ebd5eb8056e67fcfd5609970d2&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/8af3f76b-b350-4668-99db-ffde6afd7a48/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T182233Z&X-Amz-Expires=3600&X-Amz-Signature=8a005938f4200e80e7a3476ae86f29401ed158118ab2ab5df812093efd3c91f4&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Steps in K-Means Clustering
 15. **Initialization**
 	- Randomly select K initial centroids from the dataset or create K random points as centroids.
@@ -71,7 +71,7 @@ K-Means Clustering is an unsupervised learning algorithm used for partitioning a
 	- Recalculate the centroids by taking the mean of all data points assigned to each centroid.
 18. **Iteration**
 	- Repeat the assignment and update steps until the centroids no longer move or the changes are minimal.
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/16d20e8e-68c0-4ad6-83fa-24ee550846a6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T171416Z&X-Amz-Expires=3600&X-Amz-Signature=12e8a57116a26ff8430e6edc4184738e8ba0a1346c0f929992bab449e65e586a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/16d20e8e-68c0-4ad6-83fa-24ee550846a6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T182233Z&X-Amz-Expires=3600&X-Amz-Signature=092a8ce8c5518344893c815b1e278fe84f7ab4feb9c493d32a094d2a22dea541&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Distance Metrics
 - **Euclidean Distance**: Commonly used to measure the distance between data points.
 - Other metrics: Cosine similarity, Manhattan distance, Minkowski distance, etc., depending on the data type and domain.
@@ -116,7 +116,7 @@ plt.title('K-Means Clustering')
 plt.show()
 ```
 **Output:**
-![Figure_1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/73a2c105-2ca5-46a7-974c-ec918cf62c91/Figure_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T171416Z&X-Amz-Expires=3600&X-Amz-Signature=2bed7910c995e2c18de4e188ccfb5946d283349f83628a3f17f17e8a517ede03&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Figure_1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/73a2c105-2ca5-46a7-974c-ec918cf62c91/Figure_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T182233Z&X-Amz-Expires=3600&X-Amz-Signature=d9890fa7e0b5602b20f5a27204ecd02a05c7b7193c046907f91de230b8ad13cd&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Explanation
 19. **Import Libraries**: Necessary libraries are imported.
 20. **Sample Data**: A sample dataset with 'Age' and 'Income' is created.
@@ -142,7 +142,7 @@ K-Means clustering is a partition-based clustering algorithm used to partition a
 Evaluating K-Means clustering is challenging, especially since it is an unsupervised learning algorithm. Common methods to assess clustering quality include:
 - **Within-Cluster Sum of Squares (WCSS)**: Measures the average distance between data points and their cluster centroids. Lower values indicate better clustering.
 - **Elbow Method**: Helps determine the optimal number of clusters (K). Plot WCSS against the number of clusters and look for the "elbow" point where the rate of decrease **sharply shifts***.*
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7d3cdfd2-3a59-4bf7-8d34-4b4314e49abd/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T171416Z&X-Amz-Expires=3600&X-Amz-Signature=3734668112580acfa8507b15d8e1480d2b47d5a8fb8542e8f8b8775e0a4618f8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7d3cdfd2-3a59-4bf7-8d34-4b4314e49abd/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T182233Z&X-Amz-Expires=3600&X-Amz-Signature=bbc5d061f03154eb14cf1bf41c0e5090b1bd0346908289cceb223c615ebdfc96&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Example Code
 Below is a code example demonstrating K-Means clustering and the elbow method to find the optimal number of clusters:
 ```python
@@ -186,8 +186,8 @@ plt.ylabel('Feature 2')
 plt.show()
 ```
 **Outputs:**
-![Figure_1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/74024f1a-9e67-4a06-856e-ff0920d20ba0/Figure_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T171416Z&X-Amz-Expires=3600&X-Amz-Signature=3c235163ed11559f6c5ff96f02b348a54e46a8def98326f535b9848afcc140bf&X-Amz-SignedHeaders=host&x-id=GetObject)
-![Figure2.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/14af08ae-a84c-4391-95ac-9cee37c62973/Figure2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T171416Z&X-Amz-Expires=3600&X-Amz-Signature=d848e40ae31dfd65fd1675f0c8c88f3792d0ce05fafb694247f730a843ce3739&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Figure_1.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/74024f1a-9e67-4a06-856e-ff0920d20ba0/Figure_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T182233Z&X-Amz-Expires=3600&X-Amz-Signature=f6588051145be0fec7e4c98b9ee5632637da3aa30010f2c2fbf46541a9fcc9b6&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Figure2.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/14af08ae-a84c-4391-95ac-9cee37c62973/Figure2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241204%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241204T182233Z&X-Amz-Expires=3600&X-Amz-Signature=169ae0cb6364eaa0f1c1b67c6ae0d820472611656f17dd47c3fd2e7cfa5d3ac1&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Key Characteristics of K-Means
 - **Partition-Based**: Divides data into K clusters based on similarity.
 - **Efficiency**: Relatively efficient on medium and large-sized datasets.
