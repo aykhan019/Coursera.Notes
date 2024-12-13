@@ -4,7 +4,7 @@
 ## Introduction to Regression
 ### Overview
 Regression is the process of predicting a continuous value using other variables. It involves two types of variables: dependent (target) and independent (explanatory) variables. The dependent variable is the value being predicted, while the independent variables are the factors used to make the prediction. In regression, the dependent variable should be continuous, whereas the independent variables can be either categorical or continuous.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/048d582c-bb2d-4876-8db6-48170b4c3cd2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101722Z&X-Amz-Expires=3600&X-Amz-Signature=23ff20ac0b912f94dff223cfa59284d6b577bfe2c281571925863158c15bf5fe&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/048d582c-bb2d-4876-8db6-48170b4c3cd2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111308Z&X-Amz-Expires=3600&X-Amz-Signature=c3cde28fac30a53f1074a952d70c48c6203229b5342f1af96da8d1f8dfb75420&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Example Dataset
 Consider a dataset related to CO2 emissions from different cars. The dataset includes:
 - Engine size
@@ -15,7 +15,7 @@ Consider a dataset related to CO2 emissions from different cars. The dataset inc
 Given this dataset, is it possible to predict the CO2 emission of a car using other fields such as engine size or cylinders? → Yes
 ### Historical Data and Prediction
 Assume there is historical data from different cars. The goal is to estimate the CO2 emission of a new or unknown car, such as the one in row 9, which hasn't been manufactured yet. Regression methods can be used to make this prediction.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/bf5ae032-3b83-43fa-bf50-0b398a6a3696/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101722Z&X-Amz-Expires=3600&X-Amz-Signature=6bf93ab05a53b5710b3d7804bb53270402701b62d819ef514bd7eac8eb394fee&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/bf5ae032-3b83-43fa-bf50-0b398a6a3696/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111308Z&X-Amz-Expires=3600&X-Amz-Signature=32396de9681e561a8d3cbc114b4543b3a93af4a57d355b4dd958646affc430cc&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Types of Variables in Regression
 - **Dependent Variable (Y):** The state, target, or final goal to be predicted.
 - **Independent Variables (X):** The causes or explanatory variables.
@@ -41,7 +41,7 @@ Predicting employment income using variables such as hours of work, education, o
 Regression analysis is also useful in finance, healthcare, retail, and more.
 ### Conclusion
 Regression analysis has numerous applications across various fields. It helps in estimating continuous values using historical data and independent variables. Various regression algorithms exist, each suited to specific conditions, providing a foundation for exploring different regression techniques.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/461b9fe5-0f07-4808-8900-af2da1b81f37/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101722Z&X-Amz-Expires=3600&X-Amz-Signature=6824aafdbbe5c90483616cacab6d18d2e671797d24279b3c400ed25bceb01611&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/461b9fe5-0f07-4808-8900-af2da1b81f37/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111308Z&X-Amz-Expires=3600&X-Amz-Signature=02890afb77d25b669b98fdebaeb6d56a52433b11a2cae57f91fe5ba8d9cc9899&X-Amz-SignedHeaders=host&x-id=GetObject)
 ___
 ## Introduction to Linear Regression
 Linear regression is an effective method for predicting a continuous value using other variables. This introduction provides the necessary background to use linear regression effectively.
@@ -52,7 +52,7 @@ Consider a dataset related to CO2 emissions of different cars. The dataset inclu
 - Fuel consumption
 - CO2 emissions
 The goal is to predict the CO2 emission of a car using another field, such as engine size. Linear regression can be used for this purpose.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/578ec272-487c-41e1-a17c-3aa0f08a47b9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101722Z&X-Amz-Expires=3600&X-Amz-Signature=017909906ed247e8a9ff03258af2678e463f95824df6fbd35e6778d25a7791d4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/578ec272-487c-41e1-a17c-3aa0f08a47b9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111308Z&X-Amz-Expires=3600&X-Amz-Signature=d43b449bcf59cd4af531486cd8e0f3b719fc4a3209268b98f2ffa525e2d3eb9b&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Linear Regression Basics
 Linear regression is the approximation of a linear model to describe the relationship between two or more variables.
 #### Variables in Linear Regression
@@ -70,10 +70,10 @@ Linear regression is the approximation of a linear model to describe the relatio
 A scatter plot can be used to visualize the relationship between variables, such as engine size (independent variable) and CO2 emission (dependent variable). The plot helps to identify if the variables are linearly related.
 #### Fitting a Line
 Linear regression fits a line through the data points. For example, as the engine size increases, the CO2 emissions also increase. The objective is to find a line that best fits the data, which can be used to predict CO2 emissions.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/4e7d7e03-a08b-4932-8307-1f2a23dccc4d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101722Z&X-Amz-Expires=3600&X-Amz-Signature=5196c8407652a90c89af31deac8d64d9b856c497f9ed1c120e1f0bacba901b77&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/4e7d7e03-a08b-4932-8307-1f2a23dccc4d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111308Z&X-Amz-Expires=3600&X-Amz-Signature=12fed9c1b701171979351c241e6d4c12c3095f0cbf54bff5ef4a5d2c9150c487&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Prediction Using the Line
 Assuming the line is a good fit, it can be used to predict the CO2 emission of an unknown car. For example, for a car with an engine size of 2.4, the predicted CO2 emission is 214.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/26c9b8fd-e224-438c-8bab-1b5558e8d558/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101722Z&X-Amz-Expires=3600&X-Amz-Signature=6b3ed44d1d1a65a7b7524257633c30e58ecd5a3879534fd04dc307864ce4e027&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/26c9b8fd-e224-438c-8bab-1b5558e8d558/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111308Z&X-Amz-Expires=3600&X-Amz-Signature=5123806f2684eb8a665e6339cf1032201e7fb931ee53dfc4466745cd1a89cb9a&X-Amz-SignedHeaders=host&x-id=GetObject)
 ### Mathematical Representation
 The fitted line in linear regression is represented as a polynomial. For a simple linear regression with one independent variable , the model is:
 $ \hat{y} = \theta_0 + \theta_1 x_1 $
@@ -84,7 +84,7 @@ $ \hat{y} = \theta_0 + \theta_1 x_1 $
 #### Estimating Coefficients
 - $ \theta_0 $ (intercept) and $ θ_1 $ (slope) are the parameters of the line that need to be adjusted to minimize the error.
 - The goal is to minimize the mean squared error (MSE), which is the mean of all residual errors (the distance from data points to the fitted line).
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/58b7831d-084a-4eef-bfdf-3cb97ef6723e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101722Z&X-Amz-Expires=3600&X-Amz-Signature=ccd9c4e66d75a33adaa142eed6b0c582fabe7079d30ba2a4205064b6f04114cb&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/58b7831d-084a-4eef-bfdf-3cb97ef6723e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111308Z&X-Amz-Expires=3600&X-Amz-Signature=d2b452cecc1e840c88148eb9d92706901b4131dc93bf6025b59f992ffc1c199f&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Calculating $ θ_0 $ and $ θ_1 $
 3. **Calculate the Mean:**
 	- Calculate the mean of the independent variable ($ \bar{x} $) and the dependent variable ($ \hat{y} $).
@@ -92,7 +92,7 @@ $ \hat{y} = \theta_0 + \theta_1 x_1 $
 $$ \theta_1 = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2} $$
 5. **Estimate **$ \theta_0 $** (intercept):**
 $$ \theta_0 = \bar{y} - \theta_1 \bar{x} $$
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/771eaaa6-b44a-4958-b185-0146fb685012/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101722Z&X-Amz-Expires=3600&X-Amz-Signature=bb3a1cbee34573f478ead74099e6c02ff81b99a854df119097ac0f3d6035e227&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/771eaaa6-b44a-4958-b185-0146fb685012/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111308Z&X-Amz-Expires=3600&X-Amz-Signature=30ba1246f0b6f12904f81e517a3f35265e02971202003e2e22d9359aaa48ea54&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Example Calculation
 For a dataset with known values:
 - If $ θ_1 $= 43.98 and $  θ_0 $ = 92.94, the linear model is:
@@ -123,7 +123,7 @@ Model evaluation in regression aims to assess how well a model can predict unkno
 		- Simple and straightforward.
 	- **Disadvantages:**
 		- High training accuracy but low out-of-sample accuracy due to overfitting.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/cc20ddcb-2279-4e79-bcfe-8205d0fa76e4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101724Z&X-Amz-Expires=3600&X-Amz-Signature=4cfdc7c02ad87fa9157fec82c4b38494bd95e1cff767d7ba8e618ca71da5680b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/cc20ddcb-2279-4e79-bcfe-8205d0fa76e4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111310Z&X-Amz-Expires=3600&X-Amz-Signature=baccbaab713fb65b201d5e1a1e204841e27f06a47610af523ca494017c800605&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### **Code Example:**
 ```python
 from sklearn.linear_model import LinearRegression
@@ -155,7 +155,7 @@ print(f'Mean Squared Error: {mse}')
 		- More realistic for real-world problems.
 	- **Disadvantages:**
 		- Dependent on the specific split of the dataset, which can introduce variation.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ee9c0838-a391-45b2-a788-d0c8854fbdee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101723Z&X-Amz-Expires=3600&X-Amz-Signature=09ff411cbc7f168a283624a8ecb9eca498715988795a764ade6393cc0a0c3de8&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ee9c0838-a391-45b2-a788-d0c8854fbdee/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111310Z&X-Amz-Expires=3600&X-Amz-Signature=6b54e875b4bccf3677f2d1bcf9b28b3de0559fc4e8523a7f8287651a2e3e6f4d&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### **Code Example:**
 ```python
 from sklearn.model_selection import train_test_split
@@ -197,7 +197,7 @@ K-fold cross-validation is a method to address the dependency and variation issu
 **Advantages of K-Fold Cross-Validation:**
 - Reduces the dependency on a specific train/test split.
 - Provides a more reliable estimate of out-of-sample accuracy.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/daf007d4-8db8-4c38-bf21-80ebc37f3976/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101723Z&X-Amz-Expires=3600&X-Amz-Signature=fc1f8aa1857fce1751985c453ccddca90b16c44437e9e288a545b5bfdaf8048b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/daf007d4-8db8-4c38-bf21-80ebc37f3976/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111309Z&X-Amz-Expires=3600&X-Amz-Signature=4e7ddbfca0d51c340964b9b6c14946ad2344470328d1a40510bd574970e96dad&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### **Code Example:**
 ```python
 from sklearn.model_selection import cross_val_score
@@ -320,7 +320,7 @@ ___
 ### **Model Representation**
 - **Equation**: The model can be expressed as $ \hat{y}=θ_0+θ_1x_1+θ_2x_2+…+θ_nx_n $.
 - **Vector Form**: In multidimensional space, the model is represented as $ \theta^T x $, where $ θ $ is the vector of parameters and $ x $ is the feature set. The first element of $ x $ is set to one to account for the intercept ($ \theta_0 $).
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/97c57813-1dc2-4a92-93ef-7edea66e3447/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T101723Z&X-Amz-Expires=3600&X-Amz-Signature=fc531d136af1df2fbd065b6ee75f9167f9b7d0afb5b2dc738ce609fcf223f8e2&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/97c57813-1dc2-4a92-93ef-7edea66e3447/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241213T111309Z&X-Amz-Expires=3600&X-Amz-Signature=e2d96f848cb35ccd9b08936aa85a138f25ba405b700bc8f9970405339b659ec9&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### **Code Example:**
 Here’s an example of implementing Multiple Linear Regression in Python using `scikit-learn`:
 ```python
