@@ -36,7 +36,7 @@ Missing values are a common issue in datasets and occur when no data value is st
 #### Identification of Missing Values
 - **Common Representations**: NaN, ?, N/A, 0, or blank cells.
 - **Example**: The `normalized losses` feature has missing values represented as **NaN**.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/52ba3383-bb5a-48e0-8404-2b9dadcf9392/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111224Z&X-Amz-Expires=3600&X-Amz-Signature=41c0100e536c0bcab842de82fa292ee79b1380252b84a0735440f8c1c3289d56&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/52ba3383-bb5a-48e0-8404-2b9dadcf9392/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123009Z&X-Amz-Expires=3600&X-Amz-Signature=c6b520aed416ae21ec46a629f987552b826eb3326c0f736ac23d2dad87e33457&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Strategies to Handle Missing Values
 1. **Recollection**:
 	- Check if the original data collectors can provide the missing values.
@@ -44,7 +44,7 @@ Missing values are a common issue in datasets and occur when no data value is st
 	- **Dropping Entries**: Remove the entire row or column with missing values.
 		- Suitable when only a few observations have missing values.
 		- Example: If the `price` column has missing values and it's the target variable, drop the rows with missing prices.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/08d6fa26-a234-4a16-b8d4-c6d7102d2a2f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111226Z&X-Amz-Expires=3600&X-Amz-Signature=52c883fda58317ca844e3fc37e3c7176ba1905cb17b70af9ef256a1fd482c87d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/08d6fa26-a234-4a16-b8d4-c6d7102d2a2f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123014Z&X-Amz-Expires=3600&X-Amz-Signature=d5246039b4ed12dff42f462017012ef9a09b922eff7038f143bb6a415ad45cd6&X-Amz-SignedHeaders=host&x-id=GetObject)
 	- **Pandas Method**:
 ```python
 df.dropna(axis=0, inplace=True)  # Drop rows with missing values
@@ -54,7 +54,7 @@ df.dropna(axis=1, inplace=True)  # Drop columns with missing values
 	- **Mean/Median/Mode**:
 		- Replace missing values with the mean (for numerical data), median, or mode (for categorical data).
 		- Example: Replace missing `normalized losses` with the mean of the column.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f4791630-48b4-4a44-ba8b-95b0c1d6759b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111226Z&X-Amz-Expires=3600&X-Amz-Signature=c80912fdff4d6929897d581e69166d6d16514753c57e0b5d2dcd44b1660a9a1d&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/f4791630-48b4-4a44-ba8b-95b0c1d6759b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123010Z&X-Amz-Expires=3600&X-Amz-Signature=5307c510201dd86c623f9279b368a35f9f8eaa36150b907b57b8e0e2e58ff005&X-Amz-SignedHeaders=host&x-id=GetObject)
 		- **Pandas Method**:
 ```python
 mean_value = df['normalized_losses'].mean()
@@ -87,7 +87,7 @@ Data collected from various sources often comes in different formats, units, and
 - **Consistency**: Ensures that data is standardized for analysis.
 - **Clarity**: Makes data easily understandable.
 - **Examples**: Representing "New York City" consistently as "NY" or converting measurement units for uniformity.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/b1af152b-1030-49c0-b8ce-858e515dacbc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111224Z&X-Amz-Expires=3600&X-Amz-Signature=f5186117f0fc12afd84461f8ec2e40a6ec395d8c7d5498a94ae2a40b862a9823&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/b1af152b-1030-49c0-b8ce-858e515dacbc/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123009Z&X-Amz-Expires=3600&X-Amz-Signature=e785b5f20673ae0f3ad3c767488440b8372794b70d4915d4e5e05d6043ec8fc9&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Common Issues and Solutions
 7. **Inconsistent Naming Conventions**:
 	- **Example**: Different representations of "New York City" such as "N.Y.", "Ny", "NY", "New York".
@@ -148,7 +148,7 @@ Data normalization is an essential preprocessing technique used to standardize t
 	- Normalization ensures each feature has an equal influence on the model.
 15. **Computational Efficiency**:
 	- Prevents features with larger ranges from dominating the model (e.g., in linear regression, larger value ranges might bias the model).
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/da5c198c-c176-40b5-98f6-10f801ec4bb9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111223Z&X-Amz-Expires=3600&X-Amz-Signature=2974e6498ffb9ad0a99dcfa1c7ddd01187ece0189ec0999c6b50d4fac3a4e16b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/da5c198c-c176-40b5-98f6-10f801ec4bb9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123008Z&X-Amz-Expires=3600&X-Amz-Signature=07d7e6d5238965a9f09ccbe4d1fb3582eadf4104d0653394dd9cb27f185ab9b7&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Methods of Normalization
 16. **Simple Feature Scaling**:
 	- **Formula**: 
@@ -158,7 +158,7 @@ $$ x_{new} = \frac{x_{old}}{x_{max}}  $$
 ```python
 df['length'] = df['length'] / df['length'].max()
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/011e19cf-0bb6-4853-bf97-527c877b7913/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111224Z&X-Amz-Expires=3600&X-Amz-Signature=4d62ac3a853c01352b3e26409c9d4e6a70924c26b143856a9c4d08d6a25be2cb&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/011e19cf-0bb6-4853-bf97-527c877b7913/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123009Z&X-Amz-Expires=3600&X-Amz-Signature=5b8133e7462b19816e5403735ca52c5947b34bd319e2feefc23997338b18c121&X-Amz-SignedHeaders=host&x-id=GetObject)
 17. **Min-Max Scaling**:
 	- **Formula**: 
 $$  x_{new} = \frac{x_{old} - x_{min}}{x_{max} - x_{min}} $$
@@ -168,7 +168,7 @@ $$  x_{new} = \frac{x_{old} - x_{min}}{x_{max} - x_{min}} $$
 df['length'] = (df['length'] - df['length'].min()) / 
 							 (df['length'].max() - df['length'].min())
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9a3e8d8f-fde2-45ad-ba84-11dffd074993/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111224Z&X-Amz-Expires=3600&X-Amz-Signature=fe3d2f90801144552b0cf021e790048727dad7b6f730025d0ac8a9cbe734285b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/9a3e8d8f-fde2-45ad-ba84-11dffd074993/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123009Z&X-Amz-Expires=3600&X-Amz-Signature=80dc1114183b17a07419e44d2c896cb1937611ff6ec3ad4da4dd50360d319abd&X-Amz-SignedHeaders=host&x-id=GetObject)
 18. **Z-Score (Standard Score) Normalization**:
 	- **Formula**: 
 $$ x_{new} = \frac{x_{old} - \mu}{\sigma}  $$
@@ -177,7 +177,7 @@ $$ x_{new} = \frac{x_{old} - \mu}{\sigma}  $$
 ```python
 df['length'] = (df['length'] - df['length'].mean()) / df['length'].std()
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/18688735-45f9-4dbf-b6f3-d034c2402668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111226Z&X-Amz-Expires=3600&X-Amz-Signature=46363ae487f271a577fa37d20f3994370286411b5376966980e66836af766ebd&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/18688735-45f9-4dbf-b6f3-d034c2402668/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123009Z&X-Amz-Expires=3600&X-Amz-Signature=4ee94d2d6d0a3c53754ffff742a5ecb30cc2820e58762809acdaa3aa5854c447&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Example Implementation in Python
 Given a dataset containing a feature `length`:
 19. **Simple Feature Scaling**:
@@ -208,7 +208,7 @@ Binning is a data preprocessing technique where numerical values are grouped int
 **Application on Car Price Data**:
 - **Range**: The price ranges from $5,188 to $45,400 with 201 unique values.
 - **Binning**: We categorize prices into three bins: low price, medium price, and high price.
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/dbae2f85-b73c-4c1b-b3dc-26d62ce4ecfa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111223Z&X-Amz-Expires=3600&X-Amz-Signature=2f64fdf9090f304ec5eff2b9052dfa86de2ea951cf2457c57d5d4b32bb9d3465&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/dbae2f85-b73c-4c1b-b3dc-26d62ce4ecfa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123008Z&X-Amz-Expires=3600&X-Amz-Signature=4bf9960585f073f05596114794cd81281dc2da40239c140024189717d9293e3d&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### **Steps to Implement Binning in Python**:
 24. **Determine Bin Dividers**:
 	- Use NumPy's `linspace` function to create equally spaced bin dividers.
@@ -257,7 +257,7 @@ plt.ylabel('Number of Cars')
 plt.title('Histogram of Binned Car Prices')
 plt.show()
 ```
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7b15f63c-194d-4b16-adb0-2e54f99ccf11/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111223Z&X-Amz-Expires=3600&X-Amz-Signature=2feaa439c0e8b244561a812ad667351bcf82b45af8df32d96bc2e96311c27ba3&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/7b15f63c-194d-4b16-adb0-2e54f99ccf11/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123008Z&X-Amz-Expires=3600&X-Amz-Signature=4f289803a3fb8512428f92c79652003046a10f2cd96d23f6b672de39751baed6&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Conclusion
 Binning is a powerful technique for simplifying data analysis and improving model performance. By categorizing continuous variables into discrete bins, we can gain clearer insights and more effectively leverage statistical methods.
 ___
@@ -310,7 +310,7 @@ print(df)
 2     gas       0    1
 ```
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ed895fe2-732d-4632-96db-0746e1225a52/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T111223Z&X-Amz-Expires=3600&X-Amz-Signature=5ed70aedf4a4c3f82e80589d21a5e00c02abb7cca6a7c223661843bebf1696a2&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/03e82b26-cccb-4906-bb56-adabcbdc0655/ed895fe2-732d-4632-96db-0746e1225a52/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T123008Z&X-Amz-Expires=3600&X-Amz-Signature=d67b34b800ba290be46a4aed20b0cdd5fbb0c0dae4b2b07be83d85e88f843f65&X-Amz-SignedHeaders=host&x-id=GetObject)
 #### Indicator Variable
 **What is an indicator variable?**
 An indicator variable (or dummy variable) is a numerical variable used to label categories. They are called 'dummies' because the numbers themselves don't have inherent meaning.
