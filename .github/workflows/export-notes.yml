@@ -2,7 +2,7 @@ name: Export Notion Coursera Notes
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: '0 0 * * 0'  # every Sunday at midnight UTC
   workflow_dispatch:   # Allows manual triggering
 
 jobs:
