@@ -1,7 +1,7 @@
 
 
 # Modules
-[Module 1 - Loading Data](www.notion.so/3b83499c-7dc8-4f9e-8b91-25dd4713ce47)
-[Module 2](www.notion.so/ece1bda5-8207-44dd-ad13-264d0b941ade)
-[Module 3](www.notion.so/6e23f1b2-1103-4529-86dc-b094d2196047)
-[Module 4](www.notion.so/8e231659-0be6-4c39-89fd-9c89a370cff9)
+[Module 1 - Loading Data](www.notion.so/19634575-a838-8149-a994-de0499bd8c7f)
+[Module 2](www.notion.so/19634575-a838-81f0-89ad-c8ecc1d40a81)
+[Module 3](www.notion.so/19634575-a838-8103-a655-d37e6ded897f)
+[Module 4](www.notion.so/19634575-a838-81b5-bf93-cf3e89f47157)

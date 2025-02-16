@@ -2,5 +2,5 @@
 
 # AI Capstone Project with Deep Learning
 
-[Modules](www.notion.so/dba85c28-92ff-4c5f-bf51-746dc5a72eec)
-[Helpers](www.notion.so/389986c7-31f0-4889-a5b4-4705a23ba815)
+[Modules](www.notion.so/19634575-a838-8100-b969-f4aff5fa89cc)
+[Helpers](www.notion.so/19634575-a838-81dc-88b3-c7498b3ead39)
